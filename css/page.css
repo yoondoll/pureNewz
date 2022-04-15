@@ -1,0 +1,6042 @@
+@media screen and (max-width: 767px){
+    .slidebox{
+        width: 100%;
+    }
+    /* .slidebox:after{
+        content: ''; clear: both; visibility: hidden; display: block;
+    } */
+    /* .slidebox a .material-icons{
+        position: absolute;
+        top: 50%;
+    } */
+    .pager{
+        display: none;
+    }
+
+    /* 
+        todo. .slidebox img{
+            width: 100%;
+        }
+    */
+    .slidebox .slidelist li figure img,
+    .slidebox .slidelist li img,
+    .slidebox .sliderWKP li img,
+    .slidebox .sliderQTWK li img,
+    .slidebox .sliderCB li img,
+    .slidebox .sliderRafting li img,
+    .slidebox .sliderBoat li img,
+    .slidebox .sliderSurfing li img,
+    .slidebox .sliderSCU li img,
+    .slidebox .sliderWind li img,
+    .slidebox .sliderKayak li img,
+    .slidebox .sliderCaving li img,
+    .slidebox .sliderClim li img,
+    .slidebox .sliderBungy li img,
+    .slidebox .sliderSkydiv li img,
+    .slidebox .sliderAbseiling li img,
+    .slidebox .sliderOffroad li img,
+    .slidebox .sliderZipline li img,
+    .slidebox .sliderCany li img,
+    .slidebox .sliderMTcycle li img,
+    .slidebox .multiTitle li img
+    {
+        width: 100%;
+    }
+    .slidebox .slidelist li figure figcaption{
+        position: absolute; 
+        top: 13%; left: 10%;
+        letter-spacing: -2px;
+    }
+    .slidebox .slidelist li figure figcaption h2{
+        font-size: 35px; font-weight: 700;
+    }
+    .slidebox .slidelist li figure figcaption h2 small{
+        font-size: 16px; display: block; font-weight: 300;
+        margin-bottom: 5px;
+    }
+
+    .slidebox .slidelist .slider01 figure figcaption{
+        color: #00346c;
+    }
+    .slidebox .slidelist .slider02 figure figcaption{
+        color: white;
+    }
+    .slidebox .slidelist .slider03 figure figcaption{
+        color: #29b473;
+    }
+
+
+
+
+    .activity > h2{
+        color: #27aae0;
+        font-size: 20px;
+    }
+
+    .activity > p{
+        margin-bottom: 100px;
+    }
+
+
+
+    .activity ul{
+        width: 100%;
+        font-size: 0;
+    }
+
+    .activity ul li:not(:last-child){
+        margin-bottom: 63px;
+    }
+
+
+    .activity ul li a figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .activity ul li a figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 44%;
+        background: rgba(39, 170, 224, .9);
+        z-index: 1;
+        transition: all .35s;
+    }
+
+
+    .activity ul li a figure img{
+        width: 100%;
+    }
+    
+
+
+    .activity ul li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 0 30px;
+        bottom: 25px;
+        z-index: 2;
+    }
+
+    .activity ul li figure figcaption h3{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 1vw;
+    }
+    .activity ul li figure figcaption p{
+        font-size: 16px;
+        font-weight: 100;
+        color: white;
+        line-height: 25px;
+    }
+
+
+    .attraction{
+        background: url('../images/main_attraction_fiordland_BG.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .attraction > h2{
+        color: white;
+    }
+
+    .attraction > p{
+        color: white;
+        margin-bottom: 100px;
+    }
+
+    .attraction .slideBox{
+        max-width: 700px; margin: 0 auto;
+    }
+    .attraction .slideBox .bx-wrapper{
+        background: none; padding: 0 80px; max-width: 1250px !important;
+    }
+    .attraction .slideBox .bx-wrapper .bx-pager{
+        display: none;
+    }
+
+    .attraction .slideBox .bx-wrapper .bx-viewport ul.sliderCarousel{
+        width: 100%;
+        font-size: 0;
+    }
+    .attraction .slideBox ul.sliderCarousel:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    .attraction .slideBox ul.sliderCarousel li{
+        box-shadow: 0 0 10px #00000065;
+        transition: all .35s;
+    }
+    .attraction .slideBox ul.sliderCarousel li:hover{
+        transform: translateY(-50px);
+    }
+    .attraction .slideBox ul.sliderCarousel li a{
+        display: block;
+    }
+    .attraction .slideBox ul.sliderCarousel li a figure{
+        position: relative;
+    }
+
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption{
+        position: absolute;
+        padding: 12px;
+        max-width: 341px;
+        bottom: 0;
+        z-index: 9999;
+    }
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption h3{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption p{
+        font-size: 13px;
+        font-weight: 100;
+        margin-top: 5px;
+        line-height: 20px;
+    }
+    
+
+
+    .basicIFContainer > .singleTitle{
+        background-image: url('../images/maori_01.jpg');
+    }
+
+    .basicIFContainer > hr{
+        border-color: #82a5d9;
+    }
+
+
+    .basicIFContainer #weather h2,
+    .basicIFContainer #drive h2,
+    .basicIFContainer #visa h2,
+    .basicIFContainer #history h2,
+    .basicIFContainer #currency h2
+    {
+        color: #82a5d9;
+    }
+
+
+    /* weather */
+
+    .basicIFContainer #weather{
+        margin: 0 auto;
+    }
+
+    .basicIFContainer #weather h2{
+        padding-top: 170px;
+    }
+    .basicIFContainer #weather ul.category li:hover,
+    .basicIFContainer #weather ul.category li.active{
+        background-color: #82a5d9;
+    }
+
+
+    .basicIFContainer #weather .weatherMore{
+        text-align: center;
+        margin-bottom: 170px;
+    }
+
+    .basicIFContainer #weather .weatherMore a{
+        border: 3px solid #82a5d9;
+        padding: 15px 25px;
+        display: inline-block;
+        color: #82a5d9;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+
+
+    .basicIFContainer #weather ul:last-child{
+        width: 100%;
+        text-align: center;
+    }
+
+    .basicIFContainer #weather ul:last-child li{
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        vertical-align: top;
+        transition: all 0.5s;
+    }
+
+
+    .basicIFContainer #weather ul:last-child li:not(:last-child){
+        margin-bottom: 10%;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(1){
+        border: 4px solid #d66ac8;
+        background: url('../images/spring_pink.png') no-repeat 50% 10%;
+    }
+
+
+    .basicIFContainer #weather ul:last-child li:nth-child(2){
+        border: 4px solid #28aebd;
+        background: url('../images/summer_sky.png') no-repeat 50% 10%;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(3){
+        border: 4px solid #a787dc;
+        background: url('../images/autumn_pupple.png') no-repeat 50% 10%;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(4){
+        border: 4px solid #2f6cad;
+        background: url('../images/winter_blue.png') no-repeat 50% 10%;
+    }
+
+    .basicIFContainer #weather ul:last-child li p{
+        margin-bottom: 10%;
+    }
+
+
+
+
+    .basicIFContainer #weather ul:last-child li h3{
+        text-align: center;
+        font-size: 25px;
+        padding: 225px 0 55px 0;
+        transition: all 0.5s;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(1) h3{
+        color: #e371a1;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(2) h3{
+        color: #27aae0;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(3) h3{
+        color: #a787dc;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(4) h3{
+        color: #2f6cad;
+    }
+
+    .basicIFContainer #weather ul:last-child li p{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 25px;
+        padding: 0 30px;
+        transition: all 0.5s;
+    }
+
+    /* weatherFin */
+
+
+    /* drive */
+
+    .basicIFContainer #drive ul li{
+        height: 432px;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .basicIFContainer #drive ul li:not(:last-child){
+        margin-bottom: 5%;
+    }
+
+    .basicIFContainer #drive ul li:nth-child(1){
+        background-image: url('../images/drive_01.jpg');
+    }
+    .basicIFContainer #drive ul li:nth-child(2){
+        background-image: url('../images/drive_02.jpg');
+    }
+    .basicIFContainer #drive ul li:nth-child(3){
+        background-image: url('../images/drive_03.jpg');
+    }
+    .basicIFContainer #drive ul li:nth-child(4){
+        background-image: url('../images/drive_04.jpg');
+    }
+    .basicIFContainer #drive ul li:nth-child(5){
+        background-image: url('../images/drive_05.jpg');
+    }
+    .basicIFContainer #drive ul li:nth-child(6){
+        background-image: url('../images/drive_06.jpg');
+    }
+
+    .basicIFContainer #drive ul li div{
+        padding: 370px 5% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #drive ul li h3{
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 10px;
+        line-height: 25px;
+        text-shadow: 0 0 5px #0000008e;
+    }
+
+    .basicIFContainer #drive ul li p{
+        color: white;
+        font-size: 13px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 18px;
+        text-shadow: 0 0 5px #0000008e;
+    }
+
+    .basicIFContainer #drive ul li:not(:nth-child(5)):hover div{
+        margin-top: 0;
+        padding: 15% 10%;
+    }
+
+    .basicIFContainer #drive ul li:nth-child(5):hover div{
+        margin-top: 0;
+        padding: 8% 10%;
+    }
+
+    /* driveFin */
+
+
+    /* visa */
+
+    .basicIFContainer #visa ul{
+        margin: 0 auto;
+    }
+
+    .basicIFContainer #visa ul li{
+        width: 100%;
+        height: 432px;
+        overflow: hidden;
+        display: inline-block;
+        box-sizing: border-box;
+        margin-bottom: 3.3%;
+    }
+
+    
+    .basicIFContainer #visa ul li:nth-child(1){
+        background: url('../images/visa_01.jpg') no-repeat;
+    }
+    .basicIFContainer #visa ul li:nth-child(2){
+        background: url('../images/visa_02.jpg') no-repeat;
+    }
+    .basicIFContainer #visa ul li:nth-child(3){
+        background: url('../images/visa_03.jpg') no-repeat;
+    }
+    .basicIFContainer #visa ul li:nth-child(4){
+        background: url('../images/visa_04.jpg') no-repeat;
+    }
+
+
+
+
+    .basicIFContainer #visa ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #visa ul li h3{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .basicIFContainer #visa ul li p{
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .basicIFContainer #visa ul li:hover div{
+        margin-top: 0;
+        padding: 20% 10%;
+    }
+
+    /* visaFin */
+
+
+    /* history */
+
+
+    .basicIFContainer #history{
+        max-width: 80%; margin: 0 auto;  
+    }
+
+    .basicIFContainer #history ul:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .basicIFContainer #history ul li{
+        width: 100%; float: left;
+        max-height: 432px;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    
+    .basicIFContainer #history ul li:nth-child(1){
+        background-image: url('../images/history_01.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .basicIFContainer #history ul li:nth-child(2){
+        background-image: url('../images/history_02.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .basicIFContainer #history ul li:nth-child(3){
+        background-image: url('../images/history_03.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .basicIFContainer #history ul li:nth-child(4){
+        background-image: url('../images/history_04.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .basicIFContainer #history ul li:nth-child(5){
+        background-image: url('../images/history_05.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .basicIFContainer #history ul li:nth-child(6){
+        background-image: url('../images/history_06.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .basicIFContainer #history ul li:nth-child(7){
+        background-image: url('../images/history_07.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .basicIFContainer #history ul li:nth-child(8){
+        background-image: url('../images/history_08.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .basicIFContainer #history ul li:not(:nth-child(7)) div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #history ul li:nth-child(7) div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #history ul li h3{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+        list-style: 30px;
+    }
+
+
+    .basicIFContainer #history ul li p{
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .basicIFContainer #history ul li:hover div{
+        margin-top: 0;
+        padding: 15% 10%;
+    }
+
+    /* historyFin */
+
+
+    /* currency */
+
+    .basicIFContainer #currency h2{
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 120px;
+        line-height: 30px;
+    }
+
+    .basicIFContainer #currency ul{
+        margin: 0 auto;
+    }
+
+    .basicIFContainer #currency ul li{
+        width: 100%;
+        height: 432px;
+        overflow: hidden;
+        display: inline-block;
+        box-sizing: border-box;
+        margin-bottom: 3.3%;
+    }
+
+    
+    .basicIFContainer #currency ul li:nth-child(1){
+        background: url('../images/currency_01.jpg') no-repeat;
+    }
+    .basicIFContainer #currency ul li:nth-child(2){
+        background: url('../images/currency_02.jpg') no-repeat;
+    }
+    .basicIFContainer #currency ul li:nth-child(3){
+        background: url('../images/currency_03.jpg') no-repeat;
+    }
+    .basicIFContainer #currency ul li:nth-child(4){
+        background: url('../images/currency_04.jpg') no-repeat;
+    }
+
+
+
+    .basicIFContainer #currency ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #currency ul li h3{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+        line-height: 25px;
+    }
+
+    .basicIFContainer #currency ul li p{
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .basicIFContainer #currency ul li:hover div{
+        margin-top: 0;
+        padding: 20% 10%;
+    }
+
+    /* currencyFin */
+
+
+    /* ACT_winter */
+
+    .winterContainerACT > .singleTitle{
+        background-image: url('../images/CoronetPeak_01.jpg');
+    }
+
+    .winterContainerACT > hr{
+        border-color: #4586cc;
+    }
+
+    .winterContainerACT #ruapehu h2,
+    .winterContainerACT #wanaka h2,
+    .winterContainerACT #canterbury h2
+    {
+        color: #4586cc;
+    }
+
+
+    .winterContainerACT section.category ul li:hover,
+    .winterContainerACT section.category ul li.active
+    {
+        background-color: #4586cc;
+    }
+
+
+    .winterContainerACT section.category ol li:nth-child(1) a{
+        background: url('../images/ACT_category_winter_01.png');
+    }
+    .winterContainerACT section.category ol li:nth-child(2) a{
+        background: url('../images/ACT_category_winter_02.png');
+    }
+    .winterContainerACT section.category ol li:nth-child(3) a{
+        background: url('../images/ACT_category_winter_03.png');
+    }
+
+
+    /* categoryFin */
+
+
+    /* wanaka */
+
+    .winterContainerACT #wanaka div:last-child h2{
+        margin-bottom: 55px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li{
+        height: 432px;
+        overflow: hidden;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:not(:last-child){
+        margin-bottom: 55px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(1){
+        background: url('../images/ACT_winter_01.jpg') no-repeat center;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(2){
+        background: url('../images/ACT_winter_02.jpg') no-repeat center;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(3){
+        background: url('../images/ACT_winter_03.jpg') no-repeat center;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(4){
+        background: url('../images/ACT_winter_04.jpg') no-repeat center;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li h3{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li p{
+        color: white;
+        font-size: 15px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:hover div{
+        padding: 20% 10%;
+    }
+
+    /* wanakaFin */
+    /* ACT_winterFin */
+
+
+    /* ACT_summer */
+
+    .summerContainerACT > .singleTitle{
+        background-image: url('../images/surfing_01.jpg');
+    }
+
+    .summerContainerACT > hr{
+        border-color: #27aae0;
+    }
+
+    .summerContainerACT #rafting h2,
+    .summerContainerACT #boat h2,
+    .summerContainerACT #surfing h2,
+    .summerContainerACT #scubadiving h2,
+    .summerContainerACT #windsurfing h2,
+    .summerContainerACT #kayak h2
+    {
+        color: #27aae0;
+    }
+
+
+
+    .summerContainerACT section.category ul li:hover,
+    .summerContainerACT section.category ul li.active
+    {
+        background-color: #27aae0;
+    }
+
+
+    .summerContainerACT section.category ol li:nth-child(1) a{
+        background: url('../images/ACT_category_summer_01.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(2) a{
+        background: url('../images/ACT_category_summer_02.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(3) a{
+        background: url('../images/ACT_category_summer_03.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(4) a{
+        background: url('../images/ACT_category_summer_04.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(5) a{
+        background: url('../images/ACT_category_summer_05.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(6) a{
+        background: url('../images/ACT_category_summer_06.png');
+    }
+
+    /* ACT_summerFin */
+
+    /* ACT_adventure */
+
+    .AdvContainerACT > .singleTitle{
+        background-image: url('../images/offRoad_01.jpg');
+    }
+
+    .AdvContainerACT > hr{
+        border-color: #e371a1;
+    }
+
+    .AdvContainerACT #caving h2,
+    .AdvContainerACT #climbing h2,
+    .AdvContainerACT #bungy h2,
+    .AdvContainerACT #skydiving h2,
+    .AdvContainerACT #abseiling h2,
+    .AdvContainerACT #offroad h2,
+    .AdvContainerACT #ziplining h2,
+    .AdvContainerACT #canyoning h2
+    {
+        color: #e371a1;
+    }
+
+
+
+    .AdvContainerACT section.category ul li:hover,
+    .AdvContainerACT section.category ul li.active
+    {
+        background-color: #e371a1;
+    }
+
+
+    .AdvContainerACT section.category ol li:nth-child(1) a{
+        background-image: url('../images/ACT_category_adventure_01.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(2) a{
+        background-image: url('../images/ACT_category_adventure_02.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(3) a{
+        background-image: url('../images/ACT_category_adventure_03.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(4) a{
+        background-image: url('../images/ACT_category_adventure_04.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(5) a{
+        background-image: url('../images/ACT_category_adventure_05.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(6) a{
+        background-image: url('../images/ACT_category_adventure_06.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(7) a{
+        background-image: url('../images/ACT_category_adventure_07.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(8) a{
+        background-image: url('../images/ACT_category_adventure_08.png');
+    }
+
+    /* ACT_adventureFin */
+
+
+    /* ACT_cycle */
+
+
+    .cycleContainerACT > .singleTitle{
+        background-image: url('../images/cycle_timber.jpg');
+    }
+
+    .cycleContainerACT > hr{
+        border-color: #a787dc;
+    }
+
+    .cycleContainerACT #cycletrails h2,
+    .cycleContainerACT #MT_biking h2
+    {
+        color: #a787dc;
+    }
+
+
+    .cycleContainerACT section.category ul li:hover,
+    .cycleContainerACT section.category ul li.active
+    {
+        background-color: #a787dc;
+    }
+
+
+    .cycleContainerACT section.category ol li:nth-child(1) a{
+        background: url('../images/ACT_category_cycle_01.png');
+    }
+    .cycleContainerACT section.category ol li:nth-child(2) a{
+        background: url('../images/ACT_category_cycle_02.png');
+    }
+
+
+
+
+    .cycleContainerACT #cycletrails div.imgBanner{
+        background-image: url('../images/ACT_cycle_01.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 432px;
+        overflow: hidden;
+    }
+    
+
+    .cycleContainerACT #cycletrails div.imgBanner div{
+        padding: 350px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner div h3{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+        line-height: 25px;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner div p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner:hover div{
+        margin-top: 0;
+        padding: 13% 10%;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner + p{
+        margin: 60px 0;
+    }
+
+
+    .cycleContainerACT #cycletrails ul{
+        text-align: center;
+        margin: 60px 0;
+    }
+
+    .cycleContainerACT #cycletrails ul li{
+        margin-bottom: 60px;
+    }
+
+
+    .cycleContainerACT #cycletrails ul li mark{
+        font-style: normal;
+        background-color: transparent;
+        font-size: 26px;
+        display: block;
+        font-weight: 500;
+        padding-bottom: 20px;
+        color: #a787dc;
+    }
+
+
+    .cycleContainerACT #cycletrails div.westCoast{
+        background-image: url('../images/ACT_cycle_02.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 432px;
+        margin-bottom: 55px;
+    }
+
+    .cycleContainerACT #cycletrails div.timber{
+        background-image: url('../images/ACT_cycle_03.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 432px;
+    }
+
+    .cycleContainerACT #cycletrails div.HBtrails{
+        background-image: url('../images/ACT_cycle_04.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 432px;
+    }
+
+    .cycleContainerACT #cycletrails div.westCoast h3,
+    .cycleContainerACT #cycletrails div.timber h3,
+    .cycleContainerACT #cycletrails div.HBtrails h3
+    {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        padding: 70% 0;
+    }
+
+    .cycleContainerACT #cycletrails div.timber ~ p,
+    .cycleContainerACT #cycletrails div.HBtrails ~ p
+    {
+        margin: 40px 0;
+    }
+
+
+    /* ACT_cycleFin */
+
+    /* ACTFin */
+
+
+    /* localIF_SI */
+
+    .localSIContainer .SIContainer h2
+    {
+        color: #28b09e;
+    }
+
+
+    .localSIContainer .SIContainer ol.category li:nth-child(1) a{
+        background-image: url('../images/localIF_category_dunedin_01.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(2) a{
+        background-image: url('../images/localIF_category_dunedin_02.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(3) a{
+        background-image: url('../images/localIF_category_dunedin_03.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(4) a{
+        background-image: url('../images/localIF_category_dunedin_04.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(5) a{
+        background-image: url('../images/localIF_category_dunedin_05.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(6) a{
+        background-image: url('../images/localIF_category_dunedin_06.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(7) a{
+        background-image: url('../images/localIF_category_dunedin_07.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(8) a{
+        background-image: url('../images/localIF_category_dunedin_08.png');
+    }
+    .localSIContainer .SIContainer ol.category li:hover a,
+    .localSIContainer .SIContainer ol.category li.active a{
+        background-image: url('../images/localIF_category_dunedin_hover.png');
+    }
+
+
+    /* dunedin */
+    
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_dunedin_01.jpg');
+    }
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_dunedin_02.jpg');
+    }
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_dunedin_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #dunedin article{
+        background-image: url('../images/localIF_dunedin.jpg');
+    }
+
+    /* dunedinFin */
+
+
+    /* fiordland */
+
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_fiordland_01.jpg');
+    }
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_fiordland_02.jpg');
+    }
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_fiordland_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #fiordland article{
+        background-image: url('../images/localIF_fiordland.jpg');
+    }
+
+    /* fiordlandFin */
+
+
+    /* marlborough */
+
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_marlborough_01.jpg');
+    }
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_marlborough_02.jpg');
+    }
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_marlborough_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #marlborough article{
+        background-image: url('../images/localIF_marlborough.jpg');
+    }
+
+    /* marlboroughFin */
+
+
+    /* queenstown */
+
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_queenstown_01.jpg');
+    }
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_queenstown_02.jpg');
+    }
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_queenstown_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #queenstown article{
+        background-image: url('../images/localIF_queenstown.jpg');
+    }
+    
+    /* queenstownFin */
+
+    /* wanaka */
+
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wanaka_01.jpg');
+    }
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wanaka_02.jpg');
+    }
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wanaka_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #wanaka article{
+        background-image: url('../images/localIF_wanaka.jpg');
+    }
+    
+    /* wanakaFin */
+
+
+    /* westcoast */
+
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_westcoast_01.jpg');
+    }
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_westcoast_02.jpg');
+    }
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_westcoast_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #westcoast article{
+        background-image: url('../images/localIF_westcoast.jpg');
+    }
+    
+    /* westcoastFin */
+
+
+    /* christchurch */
+
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_christchurch_01.jpg');
+    }
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_christchurch_02.jpg');
+    }
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_christchurch_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #christchurch article{
+        background-image: url('../images/localIF_christchurch.jpg');
+    }
+    
+    /* christchurchFin */
+
+
+    /* clutha */
+
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_clutha_01.jpg');
+    }
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_clutha_02.jpg');
+    }
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_clutha_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #clutha article{
+        background-image: url('../images/localIF_clutha.jpg');
+    }
+    
+    /* cluthaFin */
+
+    /* localIF_SIFin */
+
+
+    /* localIF_NI */
+
+    .localNIContainer .NIContainer h2
+    {
+        color: #e371a1;
+    }
+
+
+    .localNIContainer .NIContainer ol.category li:nth-child(1) a{
+        background-image: url('../images/localIF_category_rotorua.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(2) a{
+        background-image: url('../images/localIF_category_ruapehu.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(3) a{
+        background-image: url('../images/localIF_category_auckland.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(4) a{
+        background-image: url('../images/localIF_category_waikato.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(5) a{
+        background-image: url('../images/localIF_category_wairarapa.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(6) a{
+        background-image: url('../images/localIF_category_wellington.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(7) a{
+        background-image: url('../images/localIF_category_coromandel.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(8) a{
+        background-image: url('../images/localIF_category_northland.png');
+    }
+    .localNIContainer .NIContainer ol.category li:hover a,
+    .localNIContainer .NIContainer ol.category li.active a{
+        background-image: url('../images/localIF_category_rotorua_hover.png');
+    }
+
+
+
+
+    /* rotorua */
+    
+    .localNIContainer .NIContainer #rotorua article{
+        background-image: url('../images/localIF_rotorua.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_rotorua_01.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_rotorua_02.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_rotorua_03.jpg');
+    }
+
+
+    /* rotoruaFin */
+
+
+    /* ruapehu */
+
+    .localNIContainer .NIContainer #ruapehu article{
+        background-image: url('../images/localIF_ruapehu.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_ruapehu_01.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_ruapehu_02.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_ruapehu_03.jpg');
+    }
+
+    /* ruapehuFin */
+
+
+    /* auckland */
+
+    .localNIContainer .NIContainer #auckland article{
+        background-image: url('../images/localIF_auckland.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_auckland_01.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_auckland_02.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_auckland_03.jpg');
+    }
+
+    /* aucklandFin */
+
+
+    /* waikato */
+
+    .localNIContainer .NIContainer #waikato article{
+        background-image: url('../images/localIF_waikato.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_waikato_01.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_waikato_02.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_waikato_03.jpg');
+    }
+    
+    /* waikatoFin */
+
+    /* wairarapa */
+
+    .localNIContainer .NIContainer #wairarapa article{
+        background-image: url('../images/localIF_wairarapa.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wairarapa_01.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wairarapa_02.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wairarapa_03.jpg');
+    }
+    
+    /* wairarapaFin */
+
+
+    /* wellington */
+
+    .localNIContainer .NIContainer #wellington article{
+        background-image: url('../images/localIF_wellington.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wellington_01.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wellington_02.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wellington_03.jpg');
+    }
+    
+    /* wellingtonFin */
+
+
+    /* coromandel */
+
+    .localNIContainer .NIContainer #coromandel article{
+        background-image: url('../images/localIF_coromandel.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_coromandel_01.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_coromandel_02.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_coromandel_03.jpg');
+    }
+    
+    /* coromandelFin */
+
+
+    /* northland */
+
+    .localNIContainer .NIContainer #northland article{
+        background-image: url('../images/localIF_northland.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_northland_01.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_northland_02.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_northland_03.jpg');
+    }
+
+    /* northlandFin */
+
+    /* localIF_NIFin */
+
+
+
+    /* attrView */
+
+
+    .attrViewContainer li.poorknights{
+        background-image: url('../images/attrView_back_color_01.jpg');
+    }
+    .attrViewContainer li.tongariro{
+        background-image: url('../images/attrView_back_color_02.jpg');
+    }
+    .attrViewContainer li.franzjosef{
+        background-image: url('../images/attrView_back_color_03.jpg');
+    }
+    .attrViewContainer li.pukaki{
+        background-image: url('../images/attrView_back_color_04.jpg');
+    }
+    .attrViewContainer li.bluepools{
+        background-image: url('../images/attrView_back_color_05.jpg');
+    }
+    .attrViewContainer li.waitomo{
+        background-image: url('../images/attrView_back_color_06.jpg');
+    }
+    .attrViewContainer li.tekapo{
+        background-image: url('../images/attrView_back_color_07.jpg');
+    }
+    .attrViewContainer li.nightsky{
+        background-image: url('../images/attrView_back_color_08.jpg');
+    }
+    .attrViewContainer li.bluespring{
+        background-image: url('../images/attrView_back_color_09.jpg');
+    }
+    .attrViewContainer li.tewaikoropupu{
+        background-image: url('../images/attrView_back_color_10.jpg');
+    }
+
+
+
+    .attrViewContainer li img{
+        display: none;
+    }
+
+
+    /* attrViewFin */
+
+
+    .attrViewContainer{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .attrViewContainer li{
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .attrViewContainer li article{
+        position: absolute;
+        text-align: center;
+        display: block;
+        padding: 80% 10%;
+        transition: padding 0.5s ease-out;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        z-index: 2;
+    }
+
+
+    .attrViewContainer li article h2{
+        color: white;
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    .attrViewContainer li article p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    .attrViewContainer li img{
+        display: none;
+    }
+
+    /* attrBL */
+
+    .attrBLContainer > .singleTitle{
+        background-image: url('../images/attrBL.jpg');
+    }
+
+
+    .attrBLContainer div h2{
+        color: #28b09e;
+    }
+
+    .attrBLContainer .BL_list_right:after,
+    .attrBLContainer .BL_list_left:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .attrBLContainer .BL_list_right li,
+    .attrBLContainer .BL_list_left li{
+        position: relative;
+        width: 100%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrBLContainer .BL_list_right li figure,
+    .attrBLContainer .BL_list_left li figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .attrBLContainer .BL_list_right li figure::after,
+    .attrBLContainer .BL_list_left li figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(40, 176, 158, .9);
+        z-index: 1;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrBLContainer .BL_list_right li:hover figure::after,
+    .attrBLContainer .BL_list_left li:hover figure::after{
+        opacity: 1;
+        height: 100%;
+    }
+
+    .attrBLContainer .BL_list_right li figure figcaption,
+    .attrBLContainer .BL_list_left li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 390px 30px 0;
+        top: 0;
+        z-index: 2;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrBLContainer .BL_list_right li:hover figure figcaption,
+    .attrBLContainer .BL_list_left li:hover figure figcaption{
+        padding: 30px 30px;
+    }
+
+
+
+    .attrBLContainer .BL_list_right li figure figcaption h3,
+    .attrBLContainer .BL_list_left li figure figcaption h3{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .attrBLContainer .BL_list_right li figure figcaption p,
+    .attrBLContainer .BL_list_left li figure figcaption p{
+        font-size: 15px;
+        font-weight: 100;
+        color: white;
+        line-height: 25px;
+    }
+
+    /* attrBLFin */
+
+
+    /* attrEPR */
+
+    .attrEPRContainer > .singleTitle{
+        background-image: url('../images/attrEPR.jpg');
+    }
+
+    .attrEPRContainer div h2{
+        color: #6c93ce;
+    }
+
+
+
+
+    .attrEPRContainer .EPR_list_right:after,
+    .attrEPRContainer .EPR_list_left:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .attrEPRContainer .EPR_list_right li,
+    .attrEPRContainer .EPR_list_left li{
+        position: relative;
+        width: 100%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure,
+    .attrEPRContainer .EPR_list_left li figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure::after,
+    .attrEPRContainer .EPR_list_left li figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(108, 147, 206, .9);
+        z-index: 1;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrEPRContainer .EPR_list_right li:hover figure::after,
+    .attrEPRContainer .EPR_list_left li:hover figure::after{
+        opacity: 1;
+        height: 100%;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure figcaption,
+    .attrEPRContainer .EPR_list_left li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 390px 30px 0;
+        top: 0;
+        z-index: 2;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrEPRContainer .EPR_list_right li:hover figure figcaption,
+    .attrEPRContainer .EPR_list_left li:hover figure figcaption{
+        padding: 30px 30px;
+    }
+
+
+
+    .attrEPRContainer .EPR_list_right li figure figcaption h3,
+    .attrEPRContainer .EPR_list_left li figure figcaption h3{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .attrEPRContainer .EPR_list_right li figure figcaption p,
+    .attrEPRContainer .EPR_list_left li figure figcaption p{
+        font-size: 15px;
+        font-weight: 100;
+        color: white;
+        line-height: 30px;
+    }
+
+
+    /* attrEPRFin */
+
+
+    /* cos7day */
+
+
+    .cosContainer .sevendayContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+    
+
+    .cosContainer .sevendayContainer section.category ul li:hover,
+    .cosContainer .sevendayContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+    .cosContainer .sevendayContainer .cos{
+        display: none;
+    }
+    .cosContainer .sevendayContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .sevendayContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .sevendayContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cos7dayFin */
+
+
+    /* cos14day */
+
+
+    .cosContainer .eightdayContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .eightdayContainer section.category ul li:hover,
+    .cosContainer .eightdayContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .eightdayContainer .cos{
+        display: none;
+    }
+    .cosContainer .eightdayContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .eightdayContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .eightdayContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cos7dayFin */
+
+
+    /* costwoweek */
+
+
+    .cosContainer .twoweekContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .twoweekContainer section.category ul li:hover,
+    .cosContainer .twoweekContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .twoweekContainer .cos{
+        display: none;
+    }
+    .cosContainer .twoweekContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .twoweekContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .twoweekContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* costwoweekFin */
+
+
+    /* cosSI */
+
+
+    .cosContainer .SIContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .SIContainer section.category ul li:hover,
+    .cosContainer .SIContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .SIContainer .cos{
+        display: none;
+    }
+    .cosContainer .SIContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .SIContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .SIContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cosSIFin */
+
+
+    /* cosNI */
+
+
+    .cosContainer .NIContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .NIContainer section.category ul li:hover,
+    .cosContainer .NIContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .NIContainer .cos{
+        display: none;
+    }
+    .cosContainer .NIContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .NIContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .NIContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cosNIFin */
+
+
+    
+    
+
+    #AreaDunedin > .singleTitle{
+        background-image: url('../images/localIF_dunedinArea.jpg');
+    }
+
+
+    #HLDunedin > .singleTitle{
+        background-image: url('../images/localIF_dunedinHL.jpg');
+    }
+
+
+    #AreaFiordland > .singleTitle{
+        background-image: url('../images/localIF_fiordlandArea.jpg');
+    }
+
+
+    #HLFiordland > .singleTitle{
+        background-image: url('../images/localIF_fiordlandHL.jpg');
+    }
+
+    #AreaMarlborough > .singleTitle{
+        background-image: url('../images/localIF_marlboroughArea.jpg');
+    }
+
+
+    #HLMarlborough > .singleTitle{
+        background-image: url('../images/localIF_marlboroughHL.jpg');
+    }
+
+
+    #AreaQueenstown > .singleTitle{
+        background-image: url('../images/localIF_queenstownArea.jpg');
+    }
+
+
+    #HLQueenstown > .singleTitle{
+        background-image: url('../images/localIF_queenstownHL.jpg');
+    }
+
+    #AreaWanaka > .singleTitle{
+        background-image: url('../images/localIF_wanakaArea.jpg');
+    }
+
+
+    #HLWanaka > .singleTitle{
+        background-image: url('../images/localIF_wanakaHL.jpg');
+    }
+
+
+    #AreaWestcoast > .singleTitle{
+        background-image: url('../images/localIF_westcoastArea.jpg');
+    }
+
+
+    #HLWestcoast > .singleTitle{
+        background-image: url('../images/localIF_westcoastHL.jpg');
+    }
+
+    #AreaChristchurch > .singleTitle{
+        background-image: url('../images/localIF_christchurchArea.jpg');
+    }
+
+
+    #HLChristchurch > .singleTitle{
+        background-image: url('../images/localIF_christchurchHL.jpg');
+    }
+
+
+    #AreaClutha > .singleTitle{
+        background-image: url('../images/localIF_cluthaArea.jpg');
+    }
+
+
+    #HLClutha > .singleTitle{
+        background-image: url('../images/localIF_cluthaFALL.jpg');
+    }
+
+    #AreaRotorua > .singleTitle{
+        background-image: url('../images/localIF_rotoruaArea.jpg');
+    }
+
+
+    #HLRotorua > .singleTitle{
+        background-image: url('../images/localIF_rotoruaHL.jpg');
+    }
+
+    #AreaRuapehu > .singleTitle{
+        background-image: url('../images/localIF_ruapehuArea.jpg');
+    }
+
+
+    #HLRuapehu > .singleTitle{
+        background-image: url('../images/localIF_ruapehuHL.jpg');
+    }
+
+    #AreaAuckland > .singleTitle{
+        background-image: url('../images/localIF_aucklandArea.jpg');
+    }
+
+
+    #HLAuckland > .singleTitle{
+        background-image: url('../images/localIF_aucklandHL.jpg');
+    }
+
+    #AreaWaikato > .singleTitle{
+        background-image: url('../images/localIF_waikatoArea.jpg');
+    }
+
+
+    #HLWaikato > .singleTitle{
+        background-image: url('../images/localIF_waikatoHL.jpg');
+    }
+
+    #AreaWairarapa > .singleTitle{
+        background-image: url('../images/localIF_wairarapaArea.jpg');
+    }
+
+
+    #HLWairarapa > .singleTitle{
+        background-image: url('../images/localIF_wairarapaHL.jpg');
+    }
+
+    #AreaWellington > .singleTitle{
+        background-image: url('../images/localIF_wellingtonArea.jpg');
+    }
+
+
+    #HLWellington > .singleTitle{
+        background-image: url('../images/localIF_wellingtonHL.jpg');
+    }
+
+    #AreaCoromandel > .singleTitle{
+        background-image: url('../images/localIF_coromandelArea.jpg');
+    }
+
+
+    #HLCoromandel > .singleTitle{
+        background-image: url('../images/localIF_coromandelHL.jpg');
+    }
+
+    #AreaNorthland > .singleTitle{
+        background-image: url('../images/localIF_northlandArea.jpg');
+    }
+
+
+    #HLNorthland > .singleTitle{
+        background-image: url('../images/localIF_northlandHL.jpg');
+    }
+}
+/* ? mobile */
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .slidebox{
+        width: 100%;
+    }
+    /* .slidebox:after{
+        content: ''; clear: both; visibility: hidden; display: block;
+    } */
+    /* .slidebox a .material-icons{
+        position: absolute;
+        top: 50%;
+    } */
+    .pager{
+        display: none;
+    }
+
+    /* 
+        todo. .slidebox img{
+            width: 100%;
+        }
+    */
+    .slidebox .slidelist li figure img,
+    .slidebox .slidelist li img,
+    .slidebox .sliderWKP li img,
+    .slidebox .sliderQTWK li img,
+    .slidebox .sliderCB li img,
+    .slidebox .sliderRafting li img,
+    .slidebox .sliderBoat li img,
+    .slidebox .sliderSurfing li img,
+    .slidebox .sliderSCU li img,
+    .slidebox .sliderWind li img,
+    .slidebox .sliderKayak li img,
+    .slidebox .sliderCaving li img,
+    .slidebox .sliderClim li img,
+    .slidebox .sliderBungy li img,
+    .slidebox .sliderSkydiv li img,
+    .slidebox .sliderAbseiling li img,
+    .slidebox .sliderOffroad li img,
+    .slidebox .sliderZipline li img,
+    .slidebox .sliderCany li img,
+    .slidebox .sliderMTcycle li img,
+    .slidebox .multiTitle li img
+    {
+        width: 100%;
+    }
+    .slidebox .slidelist li figure figcaption{
+        position: absolute; 
+        top: 13%; left: 10%;
+        letter-spacing: -3px;
+    }
+    .slidebox .slidelist li figure figcaption h2{
+        font-size: 70px; font-weight: 700;
+    }
+    .slidebox .slidelist li figure figcaption h2 small{
+        font-size: 30px; display: block; font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .slidebox .slidelist .slider01 figure figcaption{
+        color: #00346c;
+    }
+    .slidebox .slidelist .slider02 figure figcaption{
+        color: white;
+    }
+    .slidebox .slidelist .slider03 figure figcaption{
+        color: #29b473;
+    }
+
+
+
+
+    .activity > h2{
+        color: #27aae0;
+    }
+
+
+
+    .activity ul{
+        width: 100%;
+        font-size: 0;
+    }
+
+    .activity ul li{
+        width: 341px;
+        vertical-align: top;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+
+    .activity ul li:nth-child(3),
+    .activity ul li:nth-child(4){
+        margin: 63px 0;
+    }
+
+
+
+    .activity ul li:nth-child(2),
+    .activity ul li:nth-child(4),
+    .activity ul li:nth-child(6){
+        margin-left: 18px;
+    }
+
+    .activity ul li a figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .activity ul li a figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 33%;
+        background: rgba(39, 170, 224, .9);
+        z-index: 1;
+        transition: all .35s;
+    }
+
+
+    .activity ul li a figure img{
+        width: 100%;
+    }
+    
+
+
+    .activity ul li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 0 30px;
+        bottom: 25px;
+        z-index: 2;
+    }
+
+    .activity ul li figure figcaption h3{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .activity ul li figure figcaption p{
+        font-size: 18px;
+        font-weight: 100;
+        color: white;
+        line-height: 30px;
+    }
+
+
+    .attraction{
+        background: url('../images/main_attraction_fiordland_BG.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .attraction > h2{
+        color: white;
+    }
+
+    .attraction > p{
+        color: white;
+    }
+
+    .attraction .slideBox{
+        max-width: 1250px; margin: 0 auto;
+    }
+    .attraction .slideBox .bx-wrapper{
+        background: none; padding: 0 80px; max-width: 1250px !important;
+    }
+    .attraction .slideBox .bx-wrapper .bx-pager{
+        display: none;
+    }
+    .attraction .slideBox .bx-wrapper .bx-viewport ul.sliderCarousel{
+        width: 100%;
+        font-size: 0;
+    }
+    .attraction .slideBox ul.sliderCarousel:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    .attraction .slideBox ul.sliderCarousel li{
+        box-shadow: 0 0 10px #00000065;
+        transition: all .35s;
+    }
+    .attraction .slideBox ul.sliderCarousel li:hover{
+        transform: translateY(-50px);
+    }
+    .attraction .slideBox ul.sliderCarousel li a{
+        display: block;
+    }
+    .attraction .slideBox ul.sliderCarousel li a figure{
+        position: relative;
+    }
+
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption{
+        position: absolute;
+        padding: 30px;
+        max-width: 341px;
+        bottom: 0;
+        z-index: 9999;
+    }
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption h3{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption p{
+        font-size: 16px;
+        font-weight: 100;
+        margin-top: 55px;
+        line-height: 25px;
+    }
+    
+
+
+    .basicIFContainer > .singleTitle{
+        background-image: url('../images/maori_01.jpg');
+    }
+
+    .basicIFContainer > hr{
+        border-color: #82a5d9;
+    }
+
+
+    .basicIFContainer #weather h2,
+    .basicIFContainer #drive h2,
+    .basicIFContainer #visa h2,
+    .basicIFContainer #history h2,
+    .basicIFContainer #currency h2
+    {
+        color: #82a5d9;
+    }
+
+
+    /* weather */
+
+    .basicIFContainer #weather{
+        margin: 0 auto;
+    }
+
+    .basicIFContainer #weather h2{
+        padding-top: 170px;
+    }
+    .basicIFContainer #weather ul.category li:hover,
+    .basicIFContainer #weather ul.category li.active{
+        background-color: #82a5d9;
+    }
+
+
+    .basicIFContainer #weather .weatherMore{
+        text-align: center;
+        margin-bottom: 170px;
+    }
+
+    .basicIFContainer #weather .weatherMore a{
+        border: 3px solid #82a5d9;
+        padding: 15px 40px;
+        display: inline-block;
+        color: #82a5d9;
+        font-size: 20px;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+
+    .basicIFContainer #weather .weatherMore a:hover{
+        background-color: #82a5d9;
+        color: white;
+    }
+
+    .basicIFContainer #weather ul:last-child{
+        width: 100%;
+        text-align: center;
+    }
+
+    .basicIFContainer #weather ul:last-child li{
+        display: inline-block;
+        width: 100%; height: 500px;
+        box-sizing: border-box;
+        vertical-align: top;
+        transition: all 0.5s;
+    }
+
+
+    .basicIFContainer #weather ul:last-child li:not(:last-child){
+        margin-bottom: 5%;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(1){
+        border: 5px solid #d66ac8;
+        background: url('../images/spring_pink.png') no-repeat 50% 10%;
+    }
+
+
+    .basicIFContainer #weather ul:last-child li:nth-child(2){
+        border: 5px solid #28aebd;
+        background: url('../images/summer_sky.png') no-repeat 50% 10%;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(3){
+        border: 5px solid #a787dc;
+        background: url('../images/autumn_pupple.png') no-repeat 50% 10%;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(4){
+        border: 5px solid #2f6cad;
+        background: url('../images/winter_blue.png') no-repeat 50% 10%;
+    }
+
+
+
+
+    .basicIFContainer #weather ul:last-child li h3{
+        text-align: center;
+        font-size: 30px;
+        padding: 225px 0 55px 0;
+        transition: all 0.5s;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(1) h3{
+        color: #e371a1;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(2) h3{
+        color: #27aae0;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(3) h3{
+        color: #a787dc;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(4) h3{
+        color: #2f6cad;
+    }
+
+    .basicIFContainer #weather ul:last-child li p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 30px;
+        padding:0 30px;
+        transition: all 0.5s;
+    }
+
+
+
+    .basicIFContainer #weather ul:last-child li:nth-child(1):hover{
+        border: 5px solid #e371a1;
+        background: url('../images/spring_white.png') no-repeat 50% 10% #e371a1;
+    }
+    .basicIFContainer #weather ul:last-child li:nth-child(1):hover h3,
+    .basicIFContainer #weather ul:last-child li:nth-child(1):hover p{
+        color: white;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(2):hover{
+        border: 5px solid #27aae0;
+        background: url('../images/summer_white.png') no-repeat 50% 10% #27aae0;
+    }
+    .basicIFContainer #weather ul:last-child li:nth-child(2):hover h3,
+    .basicIFContainer #weather ul:last-child li:nth-child(2):hover p{
+        color: white;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(3):hover{
+        border: 5px solid #a787dc;
+        background: url('../images/autumn_white.png') no-repeat 50% 10% #a787dc;
+    }
+    .basicIFContainer #weather ul:last-child li:nth-child(3):hover h3,
+    .basicIFContainer #weather ul:last-child li:nth-child(3):hover p{
+        color: white;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(4):hover{
+        border: 5px solid #2f6cad;
+        background: url('../images/winter_white.png') no-repeat 50% 10% #2f6cad;
+    }
+    .basicIFContainer #weather ul:last-child li:nth-child(4):hover h3,
+    .basicIFContainer #weather ul:last-child li:nth-child(4):hover p{
+        color: white;
+    }
+
+    /* weatherFin */
+
+
+    /* drive */
+
+    .basicIFContainer #drive ul li{
+        height: 432px;
+        overflow: hidden;
+    }
+
+    .basicIFContainer #drive ul li:not(:last-child){
+        margin-bottom: 3.3%;
+    }
+
+    .basicIFContainer #drive ul li:nth-child(1){
+        background: url('../images/drive_01.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(2){
+        background: url('../images/drive_02.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(3){
+        background: url('../images/drive_03.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(4){
+        background: url('../images/drive_04.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(5){
+        background: url('../images/drive_05.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(6){
+        background: url('../images/drive_06.jpg') no-repeat;
+    }
+
+    .basicIFContainer #drive ul li div{
+        padding: 370px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #drive ul li h3{
+        color: white;
+        font-size: 23px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+        line-height: 30px;
+        text-shadow: 0 0 5px #0000008e;
+    }
+
+    .basicIFContainer #drive ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+        text-shadow: 0 0 5px #0000008e;
+    }
+
+    .basicIFContainer #drive ul li:not(:nth-child(5)):hover div{
+        margin-top: 0;
+        padding: 15% 10%;
+    }
+
+    .basicIFContainer #drive ul li:nth-child(5):hover div{
+        margin-top: 0;
+        padding: 8% 10%;
+    }
+
+    /* driveFin */
+
+
+    /* visa */
+
+    .basicIFContainer #visa ul{
+        margin: 0 auto;
+    }
+
+    .basicIFContainer #visa ul li{
+        width: 100%;
+        height: 432px;
+        overflow: hidden;
+        display: inline-block;
+        box-sizing: border-box;
+        margin-bottom: 3.3%;
+    }
+
+    
+    .basicIFContainer #visa ul li:nth-child(1){
+        background: url('../images/visa_01.jpg') no-repeat;
+    }
+    .basicIFContainer #visa ul li:nth-child(2){
+        background: url('../images/visa_02.jpg') no-repeat;
+    }
+    .basicIFContainer #visa ul li:nth-child(3){
+        background: url('../images/visa_03.jpg') no-repeat;
+    }
+    .basicIFContainer #visa ul li:nth-child(4){
+        background: url('../images/visa_04.jpg') no-repeat;
+    }
+
+
+
+
+    .basicIFContainer #visa ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #visa ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .basicIFContainer #visa ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .basicIFContainer #visa ul li:hover div{
+        margin-top: 0;
+        padding: 20% 10%;
+    }
+
+    /* visaFin */
+
+
+    /* history */
+
+
+    .basicIFContainer #history{
+        max-width: 100%; margin: 0 auto;  
+    }
+
+    .basicIFContainer #history ul{
+        max-width: 1670px; margin-left: auto;
+    }
+    .basicIFContainer #history ul:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .basicIFContainer #history ul li{
+        width: 50%; float: left;
+        max-height: 432px;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    
+    .basicIFContainer #history ul li:nth-child(1){
+        background: url('../images/history_01.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(2){
+        background: url('../images/history_02.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(3){
+        background: url('../images/history_03.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(4){
+        background: url('../images/history_04.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(5){
+        background: url('../images/history_05.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(6){
+        background: url('../images/history_06.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(7){
+        background: url('../images/history_07.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(8){
+        background: url('../images/history_08.jpg') no-repeat;
+    }
+
+    .basicIFContainer #history ul li:not(:nth-child(7)) div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #history ul li:nth-child(7) div{
+        padding: 350px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #history ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .basicIFContainer #history ul li:nth-child(7) h3{
+        line-height: 35px;
+    }
+
+    .basicIFContainer #history ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .basicIFContainer #history ul li:hover div{
+        margin-top: 0;
+        padding: 15% 10%;
+    }
+
+    /* historyFin */
+
+
+    /* currency */
+
+    .basicIFContainer #currency h2{
+        text-align: center;
+        font-weight: 500;
+        font-size: 34px;
+        margin-bottom: 120px;
+    }
+
+    .basicIFContainer #currency ul{
+        margin: 0 auto;
+    }
+
+    .basicIFContainer #currency ul li{
+        width: 100%;
+        height: 432px;
+        overflow: hidden;
+        display: inline-block;
+        box-sizing: border-box;
+        margin-bottom: 3.3%;
+    }
+
+    
+    .basicIFContainer #currency ul li:nth-child(1){
+        background: url('../images/currency_01.jpg') no-repeat;
+    }
+    .basicIFContainer #currency ul li:nth-child(2){
+        background: url('../images/currency_02.jpg') no-repeat;
+    }
+    .basicIFContainer #currency ul li:nth-child(3){
+        background: url('../images/currency_03.jpg') no-repeat;
+    }
+    .basicIFContainer #currency ul li:nth-child(4){
+        background: url('../images/currency_04.jpg') no-repeat;
+    }
+
+
+
+    .basicIFContainer #currency ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #currency ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .basicIFContainer #currency ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .basicIFContainer #currency ul li:hover div{
+        margin-top: 0;
+        padding: 20% 10%;
+    }
+
+    /* currencyFin */
+
+
+    /* ACT_winter */
+
+    .winterContainerACT > .singleTitle{
+        background-image: url('../images/CoronetPeak_01.jpg');
+    }
+
+    .winterContainerACT > hr{
+        border-color: #4586cc;
+    }
+
+    .winterContainerACT #ruapehu h2,
+    .winterContainerACT #wanaka h2,
+    .winterContainerACT #canterbury h2
+    {
+        color: #4586cc;
+    }
+
+
+    .winterContainerACT section.category ul li:hover,
+    .winterContainerACT section.category ul li.active
+    {
+        background-color: #4586cc;
+    }
+
+
+    .winterContainerACT section.category ol li:nth-child(1) a{
+        background: url('../images/ACT_category_winter_01.png');
+    }
+    .winterContainerACT section.category ol li:nth-child(2) a{
+        background: url('../images/ACT_category_winter_02.png');
+    }
+    .winterContainerACT section.category ol li:nth-child(3) a{
+        background: url('../images/ACT_category_winter_03.png');
+    }
+
+
+    /* categoryFin */
+
+
+    /* wanaka */
+
+    .winterContainerACT #wanaka div:last-child h2{
+        margin-bottom: 55px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li{
+        height: 432px;
+        overflow: hidden;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:not(:last-child){
+        margin-bottom: 55px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(1){
+        background: url('../images/ACT_winter_01.jpg') no-repeat center;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(2){
+        background: url('../images/ACT_winter_02.jpg') no-repeat center;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(3){
+        background: url('../images/ACT_winter_03.jpg') no-repeat center;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(4){
+        background: url('../images/ACT_winter_04.jpg') no-repeat center;
+    }
+
+    .winterContainerACT #wanaka ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:hover div{
+        margin-top: 0;
+        padding: 20% 10%;
+    }
+
+    /* wanakaFin */
+    /* ACT_winterFin */
+
+
+    /* ACT_summer */
+
+    .summerContainerACT > .singleTitle{
+        background-image: url('../images/surfing_01.jpg');
+    }
+
+    .summerContainerACT > hr{
+        border-color: #27aae0;
+    }
+
+    .summerContainerACT #rafting h2,
+    .summerContainerACT #boat h2,
+    .summerContainerACT #surfing h2,
+    .summerContainerACT #scubadiving h2,
+    .summerContainerACT #windsurfing h2,
+    .summerContainerACT #kayak h2
+    {
+        color: #27aae0;
+    }
+
+
+
+    .summerContainerACT section.category ul li:hover,
+    .summerContainerACT section.category ul li.active
+    {
+        background-color: #27aae0;
+    }
+
+
+    .summerContainerACT section.category ol li:nth-child(1) a{
+        background-image: url('../images/ACT_category_summer_01.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(2) a{
+        background-image: url('../images/ACT_category_summer_02.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(3) a{
+        background-image: url('../images/ACT_category_summer_03.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(4) a{
+        background-image: url('../images/ACT_category_summer_04.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(5) a{
+        background-image: url('../images/ACT_category_summer_05.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(6) a{
+        background-image: url('../images/ACT_category_summer_06.png');
+    }
+
+    /* ACT_summerFin */
+
+    /* ACT_adventure */
+
+    .AdvContainerACT > .singleTitle{
+        background-image: url('../images/offRoad_01.jpg');
+    }
+
+    .AdvContainerACT > hr{
+        border-color: #e371a1;
+    }
+
+    .AdvContainerACT #caving h2,
+    .AdvContainerACT #climbing h2,
+    .AdvContainerACT #bungy h2,
+    .AdvContainerACT #skydiving h2,
+    .AdvContainerACT #abseiling h2,
+    .AdvContainerACT #offroad h2,
+    .AdvContainerACT #ziplining h2,
+    .AdvContainerACT #canyoning h2
+    {
+        color: #e371a1;
+    }
+
+
+
+    .AdvContainerACT section.category ul li:hover,
+    .AdvContainerACT section.category ul li.active
+    {
+        background-color: #e371a1;
+    }
+
+
+    .AdvContainerACT section.category ol li:nth-child(1) a{
+        background-image: url('../images/ACT_category_adventure_01.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(2) a{
+        background-image: url('../images/ACT_category_adventure_02.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(3) a{
+        background-image: url('../images/ACT_category_adventure_03.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(4) a{
+        background-image: url('../images/ACT_category_adventure_04.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(5) a{
+        background-image: url('../images/ACT_category_adventure_05.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(6) a{
+        background-image: url('../images/ACT_category_adventure_06.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(7) a{
+        background-image: url('../images/ACT_category_adventure_07.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(8) a{
+        background-image: url('../images/ACT_category_adventure_08.png');
+    }
+
+    /* ACT_adventureFin */
+
+
+    /* ACT_cycle */
+
+
+    .cycleContainerACT > .singleTitle{
+        background-image: url('../images/cycle_timber.jpg');
+    }
+
+    .cycleContainerACT > hr{
+        border-color: #a787dc;
+    }
+
+    .cycleContainerACT #cycletrails h2,
+    .cycleContainerACT #MT_biking h2
+    {
+        color: #a787dc;
+    }
+
+
+    .cycleContainerACT section.category ul li:hover,
+    .cycleContainerACT section.category ul li.active
+    {
+        background-color: #a787dc;
+    }
+
+
+    .cycleContainerACT section.category ol li:nth-child(1) a{
+        background: url('../images/ACT_category_cycle_01.png');
+    }
+    .cycleContainerACT section.category ol li:nth-child(2) a{
+        background: url('../images/ACT_category_cycle_02.png');
+    }
+
+
+
+    .cycleContainerACT #cycletrails div.imgBanner{
+        background: url('../images/ACT_cycle_01.jpg') no-repeat;
+        width: 1150px; height: 432px;
+        overflow: hidden;
+    }
+    
+
+    .cycleContainerACT #cycletrails div.imgBanner div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner div h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner div p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner:hover div{
+        margin-top: 0;
+        padding: 13% 10%;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner + p{
+        margin: 60px 0;
+    }
+
+
+    .cycleContainerACT #cycletrails ul{
+        text-align: center;
+        margin: 60px 0;
+    }
+
+    .cycleContainerACT #cycletrails ul li{
+        margin-bottom: 60px;
+    }
+
+
+    .cycleContainerACT #cycletrails ul li mark{
+        font-style: normal;
+        background-color: transparent;
+        font-size: 26px;
+        display: block;
+        font-weight: 500;
+        padding-bottom: 20px;
+        color: #a787dc;
+    }
+
+
+    .cycleContainerACT #cycletrails div.westCoast{
+        background: url('../images/ACT_cycle_02.jpg') no-repeat;
+        width: 1150px; height: 432px;
+        margin-bottom: 55px;
+    }
+
+    .cycleContainerACT #cycletrails div.timber{
+        background: url('../images/ACT_cycle_03.jpg') no-repeat;
+        width: 1150px; height: 432px;
+    }
+
+    .cycleContainerACT #cycletrails div.HBtrails{
+        background: url('../images/ACT_cycle_04.jpg') no-repeat;
+        width: 1150px; height: 432px;
+    }
+
+    .cycleContainerACT #cycletrails div.westCoast h3,
+    .cycleContainerACT #cycletrails div.timber h3,
+    .cycleContainerACT #cycletrails div.HBtrails h3
+    {
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding: 18% 0;
+    }
+
+    .cycleContainerACT #cycletrails div.timber ~ p,
+    .cycleContainerACT #cycletrails div.HBtrails ~ p
+    {
+        margin: 40px 0;
+    }
+
+
+    /* ACT_cycleFin */
+
+    /* ACTFin */
+
+
+    /* localIF_SI */
+
+    .localSIContainer .SIContainer h2
+    {
+        color: #28b09e;
+    }
+
+
+    .localSIContainer .SIContainer ol.category li:nth-child(1) a{
+        background-image: url('../images/localIF_category_dunedin_01.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(2) a{
+        background-image: url('../images/localIF_category_dunedin_02.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(3) a{
+        background-image: url('../images/localIF_category_dunedin_03.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(4) a{
+        background-image: url('../images/localIF_category_dunedin_04.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(5) a{
+        background-image: url('../images/localIF_category_dunedin_05.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(6) a{
+        background-image: url('../images/localIF_category_dunedin_06.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(7) a{
+        background-image: url('../images/localIF_category_dunedin_07.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(8) a{
+        background-image: url('../images/localIF_category_dunedin_08.png');
+    }
+    .localSIContainer .SIContainer ol.category li:hover a,
+    .localSIContainer .SIContainer ol.category li.active a{
+        background-image: url('../images/localIF_category_dunedin_hover.png');
+    }
+
+
+    /* dunedin */
+    
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_dunedin_01.jpg');
+    }
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_dunedin_02.jpg');
+    }
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_dunedin_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #dunedin article{
+        background-image: url('../images/localIF_dunedin.jpg');
+    }
+
+    /* dunedinFin */
+
+
+    /* fiordland */
+
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_fiordland_01.jpg');
+    }
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_fiordland_02.jpg');
+    }
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_fiordland_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #fiordland article{
+        background-image: url('../images/localIF_fiordland.jpg');
+    }
+
+    /* fiordlandFin */
+
+
+    /* marlborough */
+
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_marlborough_01.jpg');
+    }
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_marlborough_02.jpg');
+    }
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_marlborough_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #marlborough article{
+        background-image: url('../images/localIF_marlborough.jpg');
+    }
+
+    /* marlboroughFin */
+
+
+    /* queenstown */
+
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_queenstown_01.jpg');
+    }
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_queenstown_02.jpg');
+    }
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_queenstown_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #queenstown article{
+        background-image: url('../images/localIF_queenstown.jpg');
+    }
+    
+    /* queenstownFin */
+
+    /* wanaka */
+
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wanaka_01.jpg');
+    }
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wanaka_02.jpg');
+    }
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wanaka_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #wanaka article{
+        background-image: url('../images/localIF_wanaka.jpg');
+    }
+    
+    /* wanakaFin */
+
+
+    /* westcoast */
+
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_westcoast_01.jpg');
+    }
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_westcoast_02.jpg');
+    }
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_westcoast_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #westcoast article{
+        background-image: url('../images/localIF_westcoast.jpg');
+    }
+    
+    /* westcoastFin */
+
+
+    /* christchurch */
+
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_christchurch_01.jpg');
+    }
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_christchurch_02.jpg');
+    }
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_christchurch_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #christchurch article{
+        background-image: url('../images/localIF_christchurch.jpg');
+    }
+    
+    /* christchurchFin */
+
+
+    /* clutha */
+
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_clutha_01.jpg');
+    }
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_clutha_02.jpg');
+    }
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_clutha_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #clutha article{
+        background-image: url('../images/localIF_clutha.jpg');
+    }
+    
+    /* cluthaFin */
+
+    /* localIF_SIFin */
+
+
+    /* localIF_NI */
+
+    .localNIContainer .NIContainer h2
+    {
+        color: #e371a1;
+    }
+
+
+    .localNIContainer .NIContainer ol.category li:nth-child(1) a{
+        background-image: url('../images/localIF_category_rotorua.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(2) a{
+        background-image: url('../images/localIF_category_ruapehu.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(3) a{
+        background-image: url('../images/localIF_category_auckland.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(4) a{
+        background-image: url('../images/localIF_category_waikato.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(5) a{
+        background-image: url('../images/localIF_category_wairarapa.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(6) a{
+        background-image: url('../images/localIF_category_wellington.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(7) a{
+        background-image: url('../images/localIF_category_coromandel.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(8) a{
+        background-image: url('../images/localIF_category_northland.png');
+    }
+    .localNIContainer .NIContainer ol.category li:hover a,
+    .localNIContainer .NIContainer ol.category li.active a{
+        background-image: url('../images/localIF_category_rotorua_hover.png');
+    }
+
+
+
+
+    /* rotorua */
+    
+    .localNIContainer .NIContainer #rotorua article{
+        background-image: url('../images/localIF_rotorua.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_rotorua_01.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_rotorua_02.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_rotorua_03.jpg');
+    }
+
+
+    /* rotoruaFin */
+
+
+    /* ruapehu */
+
+    .localNIContainer .NIContainer #ruapehu article{
+        background-image: url('../images/localIF_ruapehu.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_ruapehu_01.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_ruapehu_02.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_ruapehu_03.jpg');
+    }
+
+    /* ruapehuFin */
+
+
+    /* auckland */
+
+    .localNIContainer .NIContainer #auckland article{
+        background-image: url('../images/localIF_auckland.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_auckland_01.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_auckland_02.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_auckland_03.jpg');
+    }
+
+    /* aucklandFin */
+
+
+    /* waikato */
+
+    .localNIContainer .NIContainer #waikato article{
+        background-image: url('../images/localIF_waikato.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_waikato_01.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_waikato_02.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_waikato_03.jpg');
+    }
+    
+    /* waikatoFin */
+
+    /* wairarapa */
+
+    .localNIContainer .NIContainer #wairarapa article{
+        background-image: url('../images/localIF_wairarapa.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wairarapa_01.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wairarapa_02.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wairarapa_03.jpg');
+    }
+    
+    /* wairarapaFin */
+
+
+    /* wellington */
+
+    .localNIContainer .NIContainer #wellington article{
+        background-image: url('../images/localIF_wellington.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wellington_01.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wellington_02.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wellington_03.jpg');
+    }
+    
+    /* wellingtonFin */
+
+
+    /* coromandel */
+
+    .localNIContainer .NIContainer #coromandel article{
+        background-image: url('../images/localIF_coromandel.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_coromandel_01.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_coromandel_02.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_coromandel_03.jpg');
+    }
+    
+    /* coromandelFin */
+
+
+    /* northland */
+
+    .localNIContainer .NIContainer #northland article{
+        background-image: url('../images/localIF_northland.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_northland_01.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_northland_02.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_northland_03.jpg');
+    }
+
+    /* northlandFin */
+
+    /* localIF_NIFin */
+
+
+
+    /* attrView */
+
+    .attrViewContainer li{
+        transition: all 0.5s ease-out;
+    }
+
+    .attrViewContainer li.poorknights{
+        background-image: url('../images/attrView_back_color_01.jpg');
+    }
+    .attrViewContainer li.tongariro{
+        background-image: url('../images/attrView_back_color_02.jpg');
+    }
+    .attrViewContainer li.franzjosef{
+        background-image: url('../images/attrView_back_color_03.jpg');
+    }
+    .attrViewContainer li.pukaki{
+        background-image: url('../images/attrView_back_color_04.jpg');
+    }
+    .attrViewContainer li.bluepools{
+        background-image: url('../images/attrView_back_color_05.jpg');
+    }
+    .attrViewContainer li.waitomo{
+        background-image: url('../images/attrView_back_color_06.jpg');
+    }
+    .attrViewContainer li.tekapo{
+        background-image: url('../images/attrView_back_color_07.jpg');
+    }
+    .attrViewContainer li.nightsky{
+        background-image: url('../images/attrView_back_color_08.jpg');
+    }
+    .attrViewContainer li.bluespring{
+        background-image: url('../images/attrView_back_color_09.jpg');
+    }
+    .attrViewContainer li.tewaikoropupu{
+        background-image: url('../images/attrView_back_color_10.jpg');
+    }
+
+
+
+    .attrViewContainer li img{
+        display: none;
+    }
+
+
+    /* attrViewFin */
+
+
+    /* attrBL */
+
+    .attrBLContainer > .singleTitle{
+        background-image: url('../images/attrBL.jpg');
+    }
+
+
+    .attrBLContainer div h2{
+        color: #28b09e;
+    }
+
+
+
+
+    .attrBLContainer .BL_list_right,
+    .attrEPRContainer .EPR_list_right{
+        max-width: 1670px; margin-left: auto;
+        margin-bottom: 170px;
+    }
+
+    .attrBLContainer .BL_list_left,
+    .attrEPRContainer .EPR_list_left{
+        max-width: 1670px;
+    }
+
+    .attrBLContainer .BL_list_right:after,
+    .attrBLContainer .BL_list_left:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .attrBLContainer .BL_list_right li:not(:last-child),
+    .attrBLContainer .BL_list_left li:not(:nth-child(3)){
+        position: relative;
+        width: 50%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrBLContainer .BL_list_right li:last-child,
+    .attrBLContainer .BL_list_left li:nth-child(3){
+        position: relative;
+        width: 100%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrBLContainer .BL_list_right li figure,
+    .attrBLContainer .BL_list_left li figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .attrBLContainer .BL_list_right li figure::after,
+    .attrBLContainer .BL_list_left li figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(40, 176, 158, .9);
+        z-index: 1;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrBLContainer .BL_list_right li:hover figure::after,
+    .attrBLContainer .BL_list_left li:hover figure::after{
+        opacity: 1;
+        height: 100%;
+    }
+
+    .attrBLContainer .BL_list_right li figure figcaption,
+    .attrBLContainer .BL_list_left li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 380px 30px 0;
+        top: 0;
+        z-index: 2;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrBLContainer .BL_list_right li:hover figure figcaption,
+    .attrBLContainer .BL_list_left li:hover figure figcaption{
+        padding: 30px 30px;
+    }
+
+
+
+    .attrBLContainer .BL_list_right li figure figcaption h3,
+    .attrBLContainer .BL_list_left li figure figcaption h3{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .attrBLContainer .BL_list_right li figure figcaption p,
+    .attrBLContainer .BL_list_left li figure figcaption p{
+        font-size: 18px;
+        font-weight: 100;
+        color: white;
+        line-height: 30px;
+    }
+
+    /* attrBLFin */
+
+
+    /* attrEPR */
+
+    .attrEPRContainer > .singleTitle{
+        background-image: url('../images/attrEPR.jpg');
+    }
+
+    .attrEPRContainer div h2{
+        color: #6c93ce;
+    }
+
+
+
+
+    .attrEPRContainer .EPR_list_right:after,
+    .attrEPRContainer .EPR_list_left:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .attrEPRContainer .EPR_list_right li:not(:last-child),
+    .attrEPRContainer .EPR_list_left li:not(:nth-child(3)){
+        position: relative;
+        width: 50%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrEPRContainer .EPR_list_right li:last-child,
+    .attrEPRContainer .EPR_list_left li:nth-child(3){
+        position: relative;
+        width: 100%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure,
+    .attrEPRContainer .EPR_list_left li figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure::after,
+    .attrEPRContainer .EPR_list_left li figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(108, 147, 206, .9);
+        z-index: 1;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrEPRContainer .EPR_list_right li:hover figure::after,
+    .attrEPRContainer .EPR_list_left li:hover figure::after{
+        opacity: 1;
+        height: 100%;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure figcaption,
+    .attrEPRContainer .EPR_list_left li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 380px 30px 0;
+        top: 0;
+        z-index: 2;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrEPRContainer .EPR_list_right li:hover figure figcaption,
+    .attrEPRContainer .EPR_list_left li:hover figure figcaption{
+        padding: 30px 30px;
+    }
+
+
+
+    .attrEPRContainer .EPR_list_right li figure figcaption h3,
+    .attrEPRContainer .EPR_list_left li figure figcaption h3{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .attrEPRContainer .EPR_list_right li figure figcaption p,
+    .attrEPRContainer .EPR_list_left li figure figcaption p{
+        font-size: 18px;
+        font-weight: 100;
+        color: white;
+        line-height: 30px;
+    }
+
+
+    /* attrEPRFin */
+
+
+    /* cos7day */
+
+
+    .cosContainer .sevendayContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+    
+
+    .cosContainer .sevendayContainer section.category ul li:hover,
+    .cosContainer .sevendayContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+    .cosContainer .sevendayContainer .cos{
+        display: none;
+    }
+    .cosContainer .sevendayContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .sevendayContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .sevendayContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cos7dayFin */
+
+
+    /* cos14day */
+
+
+    .cosContainer .eightdayContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .eightdayContainer section.category ul li:hover,
+    .cosContainer .eightdayContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .eightdayContainer .cos{
+        display: none;
+    }
+    .cosContainer .eightdayContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .eightdayContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .eightdayContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cos7dayFin */
+
+
+    /* costwoweek */
+
+
+    .cosContainer .twoweekContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .twoweekContainer section.category ul li:hover,
+    .cosContainer .twoweekContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .twoweekContainer .cos{
+        display: none;
+    }
+    .cosContainer .twoweekContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .twoweekContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .twoweekContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* costwoweekFin */
+
+
+    /* cosSI */
+
+
+    .cosContainer .SIContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .SIContainer section.category ul li:hover,
+    .cosContainer .SIContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .SIContainer .cos{
+        display: none;
+    }
+    .cosContainer .SIContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .SIContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .SIContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cosSIFin */
+
+
+    /* cosNI */
+
+
+    .cosContainer .NIContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .NIContainer section.category ul li:hover,
+    .cosContainer .NIContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .NIContainer .cos{
+        display: none;
+    }
+    .cosContainer .NIContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .NIContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .NIContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cosNIFin */
+
+
+    
+    
+
+    #AreaDunedin > .singleTitle{
+        background-image: url('../images/localIF_dunedinArea.jpg');
+    }
+
+
+    #HLDunedin > .singleTitle{
+        background-image: url('../images/localIF_dunedinHL.jpg');
+    }
+
+
+    #AreaFiordland > .singleTitle{
+        background-image: url('../images/localIF_fiordlandArea.jpg');
+    }
+
+
+    #HLFiordland > .singleTitle{
+        background-image: url('../images/localIF_fiordlandHL.jpg');
+    }
+
+    #AreaMarlborough > .singleTitle{
+        background-image: url('../images/localIF_marlboroughArea.jpg');
+    }
+
+
+    #HLMarlborough > .singleTitle{
+        background-image: url('../images/localIF_marlboroughHL.jpg');
+    }
+
+
+    #AreaQueenstown > .singleTitle{
+        background-image: url('../images/localIF_queenstownArea.jpg');
+    }
+
+
+    #HLQueenstown > .singleTitle{
+        background-image: url('../images/localIF_queenstownHL.jpg');
+    }
+
+    #AreaWanaka > .singleTitle{
+        background-image: url('../images/localIF_wanakaArea.jpg');
+    }
+
+
+    #HLWanaka > .singleTitle{
+        background-image: url('../images/localIF_wanakaHL.jpg');
+    }
+
+
+    #AreaWestcoast > .singleTitle{
+        background-image: url('../images/localIF_westcoastArea.jpg');
+    }
+
+
+    #HLWestcoast > .singleTitle{
+        background-image: url('../images/localIF_westcoastHL.jpg');
+    }
+
+    #AreaChristchurch > .singleTitle{
+        background-image: url('../images/localIF_christchurchArea.jpg');
+    }
+
+
+    #HLChristchurch > .singleTitle{
+        background-image: url('../images/localIF_christchurchHL.jpg');
+    }
+
+
+    #AreaClutha > .singleTitle{
+        background-image: url('../images/localIF_cluthaArea.jpg');
+    }
+
+
+    #HLClutha > .singleTitle{
+        background-image: url('../images/localIF_cluthaFALL.jpg');
+    }
+
+    #AreaRotorua > .singleTitle{
+        background-image: url('../images/localIF_rotoruaArea.jpg');
+    }
+
+
+    #HLRotorua > .singleTitle{
+        background-image: url('../images/localIF_rotoruaHL.jpg');
+    }
+
+    #AreaRuapehu > .singleTitle{
+        background-image: url('../images/localIF_ruapehuArea.jpg');
+    }
+
+
+    #HLRuapehu > .singleTitle{
+        background-image: url('../images/localIF_ruapehuHL.jpg');
+    }
+
+    #AreaAuckland > .singleTitle{
+        background-image: url('../images/localIF_aucklandArea.jpg');
+    }
+
+
+    #HLAuckland > .singleTitle{
+        background-image: url('../images/localIF_aucklandHL.jpg');
+    }
+
+    #AreaWaikato > .singleTitle{
+        background-image: url('../images/localIF_waikatoArea.jpg');
+    }
+
+
+    #HLWaikato > .singleTitle{
+        background-image: url('../images/localIF_waikatoHL.jpg');
+    }
+
+    #AreaWairarapa > .singleTitle{
+        background-image: url('../images/localIF_wairarapaArea.jpg');
+    }
+
+
+    #HLWairarapa > .singleTitle{
+        background-image: url('../images/localIF_wairarapaHL.jpg');
+    }
+
+    #AreaWellington > .singleTitle{
+        background-image: url('../images/localIF_wellingtonArea.jpg');
+    }
+
+
+    #HLWellington > .singleTitle{
+        background-image: url('../images/localIF_wellingtonHL.jpg');
+    }
+
+    #AreaCoromandel > .singleTitle{
+        background-image: url('../images/localIF_coromandelArea.jpg');
+    }
+
+
+    #HLCoromandel > .singleTitle{
+        background-image: url('../images/localIF_coromandelHL.jpg');
+    }
+
+    #AreaNorthland > .singleTitle{
+        background-image: url('../images/localIF_northlandArea.jpg');
+    }
+
+
+    #HLNorthland > .singleTitle{
+        background-image: url('../images/localIF_northlandHL.jpg');
+    }
+}
+/* ? tablet */
+
+@media screen and (min-width: 1280px){
+    .slidebox{
+        width: 100%;
+    }
+    /* .slidebox:after{
+        content: ''; clear: both; visibility: hidden; display: block;
+    } */
+    /* .slidebox a .material-icons{
+        position: absolute;
+        top: 50%;
+    } */
+    .pager{
+        display: none;
+    }
+
+    /* 
+        todo. .slidebox img{
+            width: 100%;
+        }
+    */
+    .slidebox img
+    {
+        width: 100%;
+    }
+    .slidebox .slidelist li figure figcaption{
+        position: absolute; 
+        top: 13%; left: 10%;
+        letter-spacing: -3px;
+    }
+    .slidebox .slidelist li figure figcaption h2{
+        font-size: 94px; font-weight: 700;
+    }
+    .slidebox .slidelist li figure figcaption h2 small{
+        font-size: 35px; display: block; font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .slidebox .slidelist .slider01 figure figcaption{
+        color: #00346c;
+    }
+    .slidebox .slidelist .slider02 figure figcaption{
+        color: white;
+    }
+    .slidebox .slidelist .slider03 figure figcaption{
+        color: #29b473;
+    }
+
+
+
+
+    .activity > h2{
+        color: #27aae0;
+    }
+
+
+
+    .activity ul{
+        width: 100%;
+        font-size: 0;
+    }
+
+    .activity ul li{
+        width: 341px;
+        vertical-align: top;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+
+    .activity ul li:nth-child(1),
+    .activity ul li:nth-child(2),
+    .activity ul li:nth-child(3){
+        margin-bottom: 63px;
+    }
+
+
+
+    .activity ul li:nth-child(2),
+    .activity ul li:nth-child(5){
+        margin: 0 63px;
+    }
+
+    .activity ul li a figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .activity ul li a figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 33%;
+        background: rgba(39, 170, 224, .9);
+        z-index: 1;
+        transition: all .35s;
+    }
+
+    .activity ul li a:hover figure::after{
+        opacity: 1;
+        height: 100%;
+    }    
+
+
+    .activity ul li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 0 30px;
+        bottom: 25px;
+        z-index: 2;
+    }
+
+    .activity ul li figure figcaption h3{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .activity ul li figure figcaption p{
+        font-size: 18px;
+        font-weight: 100;
+        color: white;
+        line-height: 30px;
+    }
+
+
+    .attraction{
+        background: url('../images/main_attraction_fiordland_BG.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .attraction > h2{
+        color: white;
+    }
+
+    .attraction > p{
+        color: white;
+    }
+
+    .attraction .slideBox{
+        max-width: 1250px; margin: 0 auto;
+    }
+    .attraction .slideBox .bx-wrapper{
+        background: none; padding: 0 80px; max-width: 1250px !important;
+    }
+    .attraction .slideBox .bx-wrapper .bx-pager{
+        max-width: 1090px; bottom: -100px;
+    }
+    .attraction .slideBox .bx-wrapper .bx-viewport ul.sliderCarousel{
+        width: 100%;
+        font-size: 0;
+    }
+    .attraction .slideBox ul.sliderCarousel:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+    .attraction .slideBox ul.sliderCarousel li{
+        box-shadow: 0 0 10px #00000065;
+        transition: all .35s;
+    }
+    .attraction .slideBox ul.sliderCarousel li:hover{
+        transform: translateY(-50px);
+    }
+    .attraction .slideBox ul.sliderCarousel li a{
+        display: block;
+    }
+    .attraction .slideBox ul.sliderCarousel li a figure{
+        position: relative;
+    }
+
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption{
+        position: absolute;
+        padding: 30px;
+        max-width: 341px;
+        bottom: 0;
+        z-index: 9999;
+    }
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption h3{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 32px;
+    }
+
+    .attraction .slideBox ul.sliderCarousel li a figure figcaption p{
+        font-size: 16px;
+        font-weight: 100;
+        margin-top: 55px;
+        line-height: 25px;
+    }
+    
+
+
+    .basicIFContainer > .singleTitle{
+        background-image: url('../images/maori_01.jpg');
+    }
+
+    .basicIFContainer > hr{
+        border-color: #82a5d9;
+    }
+
+
+    .basicIFContainer #weather h2,
+    .basicIFContainer #drive h2,
+    .basicIFContainer #visa h2,
+    .basicIFContainer #history h2,
+    .basicIFContainer #currency h2
+    {
+        color: #82a5d9;
+    }
+
+
+    /* weather */
+
+
+    .basicIFContainer #weather ul.category li:hover,
+    .basicIFContainer #weather ul.category li.active{
+        background-color: #82a5d9;
+    }
+
+
+    .basicIFContainer #weather .weatherMore{
+        text-align: center;
+        margin-bottom: 170px;
+    }
+
+    .basicIFContainer #weather .weatherMore a{
+        border: 3px solid #82a5d9;
+        padding: 15px 40px;
+        display: inline-block;
+        color: #82a5d9;
+        font-size: 20px;
+        font-weight: 500;
+        transition: all 0.5s;
+    }
+
+    .basicIFContainer #weather .weatherMore a:hover{
+        background-color: #82a5d9;
+        color: white;
+    }
+
+    .basicIFContainer #weather ul:last-child{
+        width: 100%;
+    }
+
+    .basicIFContainer #weather ul:last-child li{
+        display: inline-block;
+        width: 48%; height: 500px;
+        box-sizing: border-box;
+        vertical-align: top;
+        transition: all 0.5s;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(odd){
+        margin-right: 3.3%;
+    }
+
+
+    .basicIFContainer #weather ul:last-child li:nth-child(1){
+        border: 5px solid #d66ac8;
+        background: url('../images/spring_pink.png') no-repeat 50% 10%;
+        margin-bottom: 3.3%;
+    }
+
+
+    .basicIFContainer #weather ul:last-child li:nth-child(2){
+        border: 5px solid #28aebd;
+        background: url('../images/summer_sky.png') no-repeat 50% 10%;
+        margin-bottom: 3.3%;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(3){
+        border: 5px solid #a787dc;
+        background: url('../images/autumn_pupple.png') no-repeat 50% 10%;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(4){
+        border: 5px solid #2f6cad;
+        background: url('../images/winter_blue.png') no-repeat 50% 10%;
+    }
+
+
+
+
+    .basicIFContainer #weather ul:last-child li h3{
+        text-align: center;
+        font-size: 30px;
+        padding: 225px 0 55px 0;
+        transition: all 0.5s;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(1) h3{
+        color: #e371a1;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(2) h3{
+        color: #27aae0;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(3) h3{
+        color: #a787dc;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(4) h3{
+        color: #2f6cad;
+    }
+
+    .basicIFContainer #weather ul:last-child li p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 30px;
+        padding:0 30px;
+        transition: all 0.5s;
+    }
+
+
+
+    .basicIFContainer #weather ul:last-child li:nth-child(1):hover{
+        border: 5px solid #e371a1;
+        background: url('../images/spring_white.png') no-repeat 50% 10% #e371a1;
+    }
+    .basicIFContainer #weather ul:last-child li:nth-child(1):hover h3,
+    .basicIFContainer #weather ul:last-child li:nth-child(1):hover p{
+        color: white;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(2):hover{
+        border: 5px solid #27aae0;
+        background: url('../images/summer_white.png') no-repeat 50% 10% #27aae0;
+    }
+    .basicIFContainer #weather ul:last-child li:nth-child(2):hover h3,
+    .basicIFContainer #weather ul:last-child li:nth-child(2):hover p{
+        color: white;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(3):hover{
+        border: 5px solid #a787dc;
+        background: url('../images/autumn_white.png') no-repeat 50% 10% #a787dc;
+    }
+    .basicIFContainer #weather ul:last-child li:nth-child(3):hover h3,
+    .basicIFContainer #weather ul:last-child li:nth-child(3):hover p{
+        color: white;
+    }
+
+    .basicIFContainer #weather ul:last-child li:nth-child(4):hover{
+        border: 5px solid #2f6cad;
+        background: url('../images/winter_white.png') no-repeat 50% 10% #2f6cad;
+    }
+    .basicIFContainer #weather ul:last-child li:nth-child(4):hover h3,
+    .basicIFContainer #weather ul:last-child li:nth-child(4):hover p{
+        color: white;
+    }
+
+    /* weatherFin */
+
+
+    /* drive */
+
+    .basicIFContainer #drive ul li{
+        height: 432px;
+        overflow: hidden;
+    }
+
+    .basicIFContainer #drive ul li:not(:last-child){
+        margin-bottom: 55px;
+    }
+
+    .basicIFContainer #drive ul li:nth-child(1){
+        background: url('../images/drive_01.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(2){
+        background: url('../images/drive_02.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(3){
+        background: url('../images/drive_03.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(4){
+        background: url('../images/drive_04.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(5){
+        background: url('../images/drive_05.jpg') no-repeat;
+    }
+    .basicIFContainer #drive ul li:nth-child(6){
+        background: url('../images/drive_06.jpg') no-repeat;
+    }
+
+    .basicIFContainer #drive ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #drive ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .basicIFContainer #drive ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .basicIFContainer #drive ul li:hover div{
+        margin-top: 0;
+        padding: 10% 10%;
+    }
+
+    /* driveFin */
+
+
+    /* visa */
+
+    .basicIFContainer #visa ul{
+        margin: 0 auto;
+    }
+
+    .basicIFContainer #visa ul li{
+        width: 48.1%;
+        height: 432px;
+        overflow: hidden;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    
+    .basicIFContainer #visa ul li:nth-child(1){
+        background: url('../images/visa_01.jpg') no-repeat;
+        margin-bottom: 3.3%;
+    }
+    .basicIFContainer #visa ul li:nth-child(2){
+        background: url('../images/visa_02.jpg') no-repeat;
+        margin-bottom: 3.3%;
+    }
+    .basicIFContainer #visa ul li:nth-child(3){
+        background: url('../images/visa_03.jpg') no-repeat;
+    }
+    .basicIFContainer #visa ul li:nth-child(4){
+        background: url('../images/visa_04.jpg') no-repeat;
+    }
+
+    .basicIFContainer #visa ul:last-child li:nth-child(odd){
+        margin-right: 3.3%;
+    }
+
+
+
+    .basicIFContainer #visa ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #visa ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .basicIFContainer #visa ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .basicIFContainer #visa ul li:hover div{
+        margin-top: 0;
+        padding: 20% 10%;
+    }
+
+    /* visaFin */
+
+
+    /* history */
+
+
+    .basicIFContainer #history{
+        max-width: 100%; margin: 0 auto;  
+    }
+
+    .basicIFContainer #history ul{
+        max-width: 1670px; margin-left: auto;
+    }
+    .basicIFContainer #history ul:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .basicIFContainer #history ul li{
+        width: 50%; float: left;
+        max-height: 432px;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    
+    .basicIFContainer #history ul li:nth-child(1){
+        background: url('../images/history_01.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(2){
+        background: url('../images/history_02.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(3){
+        background: url('../images/history_03.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(4){
+        background: url('../images/history_04.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(5){
+        background: url('../images/history_05.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(6){
+        background: url('../images/history_06.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(7){
+        background: url('../images/history_07.jpg') no-repeat;
+    }
+    .basicIFContainer #history ul li:nth-child(8){
+        background: url('../images/history_08.jpg') no-repeat;
+    }
+
+    .basicIFContainer #history ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #history ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .basicIFContainer #history ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .basicIFContainer #history ul li:hover div{
+        margin-top: 0;
+        padding: 15% 10%;
+    }
+
+    /* historyFin */
+
+
+    /* currency */
+
+    .basicIFContainer #currency h2{
+        text-align: center;
+        font-weight: 500;
+        font-size: 34px;
+        margin-bottom: 120px;
+    }
+
+    .basicIFContainer #currency ul{
+        margin: 0 auto;
+    }
+
+    .basicIFContainer #currency ul li{
+        width: 48.1%;
+        height: 432px;
+        overflow: hidden;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    
+    .basicIFContainer #currency ul li:nth-child(1){
+        background: url('../images/currency_01.jpg') no-repeat;
+        margin-bottom: 3.3%;
+    }
+    .basicIFContainer #currency ul li:nth-child(2){
+        background: url('../images/currency_02.jpg') no-repeat;
+        margin-bottom: 3.3%;
+    }
+    .basicIFContainer #currency ul li:nth-child(3){
+        background: url('../images/currency_03.jpg') no-repeat;
+    }
+    .basicIFContainer #currency ul li:nth-child(4){
+        background: url('../images/currency_04.jpg') no-repeat;
+    }
+
+    .basicIFContainer #currency ul:last-child li:nth-child(odd){
+        margin-right: 3.3%;
+    }
+
+
+
+    .basicIFContainer #currency ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .basicIFContainer #currency ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .basicIFContainer #currency ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .basicIFContainer #currency ul li:hover div{
+        margin-top: 0;
+        padding: 20% 10%;
+    }
+
+    /* currencyFin */
+
+
+    /* ACT_winter */
+
+    .winterContainerACT > .singleTitle{
+        background-image: url('../images/CoronetPeak_01.jpg');
+    }
+
+    .winterContainerACT > hr{
+        border-color: #4586cc;
+    }
+
+    .winterContainerACT #ruapehu h2,
+    .winterContainerACT #wanaka h2,
+    .winterContainerACT #canterbury h2
+    {
+        color: #4586cc;
+    }
+
+
+    .winterContainerACT section.category ul li:hover,
+    .winterContainerACT section.category ul li.active
+    {
+        background-color: #4586cc;
+    }
+
+
+    .winterContainerACT section.category ol li:nth-child(1) a{
+        background: url('../images/ACT_category_winter_01.png');
+    }
+    .winterContainerACT section.category ol li:nth-child(2) a{
+        background: url('../images/ACT_category_winter_02.png');
+    }
+    .winterContainerACT section.category ol li:nth-child(3) a{
+        background: url('../images/ACT_category_winter_03.png');
+    }
+    .winterContainerACT section.category ol li:hover a{
+        background: url('../images/ACT_category_winter_hover.png');
+    }
+
+
+    /* categoryFin */
+
+
+    /* wanaka */
+
+    .winterContainerACT #wanaka div:last-child h2{
+        margin-bottom: 55px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li{
+        height: 432px;
+        overflow: hidden;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:not(:last-child){
+        margin-bottom: 55px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(1){
+        background: url('../images/ACT_winter_01.jpg') no-repeat;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(2){
+        background: url('../images/ACT_winter_02.jpg') no-repeat;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(3){
+        background: url('../images/ACT_winter_03.jpg') no-repeat;
+    }
+    .winterContainerACT #wanaka div:last-child ul li:nth-child(4){
+        background: url('../images/ACT_winter_04.jpg') no-repeat;
+    }
+
+    .winterContainerACT #wanaka ul li div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .winterContainerACT #wanaka div:last-child ul li:hover div{
+        margin-top: 0;
+        padding: 13% 10%;
+    }
+
+    /* wanakaFin */
+    /* ACT_winterFin */
+
+
+    /* ACT_summer */
+
+    .summerContainerACT > .singleTitle{
+        background-image: url('../images/surfing_01.jpg');
+    }
+
+    .summerContainerACT > hr{
+        border-color: #27aae0;
+    }
+
+    .summerContainerACT #rafting h2,
+    .summerContainerACT #boat h2,
+    .summerContainerACT #surfing h2,
+    .summerContainerACT #scubadiving h2,
+    .summerContainerACT #windsurfing h2,
+    .summerContainerACT #kayak h2
+    {
+        color: #27aae0;
+    }
+
+
+
+    .summerContainerACT section.category ul li:hover,
+    .summerContainerACT section.category ul li.active
+    {
+        background-color: #27aae0;
+    }
+
+
+    .summerContainerACT section.category ol li:nth-child(1) a{
+        background: url('../images/ACT_category_summer_01.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(2) a{
+        background: url('../images/ACT_category_summer_02.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(3) a{
+        background: url('../images/ACT_category_summer_03.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(4) a{
+        background: url('../images/ACT_category_summer_04.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(5) a{
+        background: url('../images/ACT_category_summer_05.png');
+    }
+    .summerContainerACT section.category ol li:nth-child(6) a{
+        background: url('../images/ACT_category_summer_06.png');
+    }
+    .summerContainerACT section.category ol li:hover a{
+        background: url('../images/ACT_category_summer_hover.png');
+    }
+
+    /* ACT_summerFin */
+
+    /* ACT_adventure */
+
+    .AdvContainerACT > .singleTitle{
+        background-image: url('../images/offRoad_01.jpg');
+    }
+
+    .AdvContainerACT > hr{
+        border-color: #e371a1;
+    }
+
+    .AdvContainerACT #caving h2,
+    .AdvContainerACT #climbing h2,
+    .AdvContainerACT #bungy h2,
+    .AdvContainerACT #skydiving h2,
+    .AdvContainerACT #abseiling h2,
+    .AdvContainerACT #offroad h2,
+    .AdvContainerACT #ziplining h2,
+    .AdvContainerACT #canyoning h2
+    {
+        color: #e371a1;
+    }
+
+
+
+    .AdvContainerACT section.category ul li:hover,
+    .AdvContainerACT section.category ul li.active
+    {
+        background-color: #e371a1;
+    }
+
+
+    .AdvContainerACT section.category ol li:nth-child(1) a{
+        background-image: url('../images/ACT_category_adventure_01.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(2) a{
+        background-image: url('../images/ACT_category_adventure_02.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(3) a{
+        background-image: url('../images/ACT_category_adventure_03.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(4) a{
+        background-image: url('../images/ACT_category_adventure_04.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(5) a{
+        background-image: url('../images/ACT_category_adventure_05.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(6) a{
+        background-image: url('../images/ACT_category_adventure_06.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(7) a{
+        background-image: url('../images/ACT_category_adventure_07.png');
+    }
+    .AdvContainerACT section.category ol li:nth-child(8) a{
+        background-image: url('../images/ACT_category_adventure_08.png');
+    }
+    .AdvContainerACT section.category ol li:hover a{
+        background-image: url('../images/ACT_category_adventure_hover.png');
+    }
+
+    /* ACT_adventureFin */
+
+
+    /* ACT_cycle */
+
+
+    .cycleContainerACT > .singleTitle{
+        background-image: url('../images/cycle_timber.jpg');
+    }
+
+    .cycleContainerACT > hr{
+        border-color: #a787dc;
+    }
+
+    .cycleContainerACT #cycletrails h2,
+    .cycleContainerACT #MT_biking h2
+    {
+        color: #a787dc;
+    }
+
+
+    .cycleContainerACT section.category ul li:hover,
+    .cycleContainerACT section.category ul li.active
+    {
+        background-color: #a787dc;
+    }
+
+
+    .cycleContainerACT section.category ol li:nth-child(1) a{
+        background: url('../images/ACT_category_cycle_01.png');
+    }
+    .cycleContainerACT section.category ol li:nth-child(2) a{
+        background: url('../images/ACT_category_cycle_02.png');
+    }
+    .cycleContainerACT section.category ol li:hover a{
+        background: url('../images/ACT_category_cycle_hover.png');
+    }
+
+
+
+    .cycleContainerACT #cycletrails div.imgBanner{
+        background: url('../images/ACT_cycle_01.jpg') no-repeat;
+        width: 1150px; height: 432px;
+        overflow: hidden;
+    }
+    
+
+    .cycleContainerACT #cycletrails div.imgBanner div{
+        padding: 380px 10% 0;
+        transition: padding 0.5s ease-out;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner div h3{
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner div p{
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 23px;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner:hover div{
+        margin-top: 0;
+        padding: 13% 10%;
+    }
+
+    .cycleContainerACT #cycletrails div.imgBanner + p{
+        margin: 60px 0;
+    }
+
+
+    .cycleContainerACT #cycletrails ul{
+        text-align: center;
+        margin: 60px 0;
+    }
+
+    .cycleContainerACT #cycletrails ul li{
+        margin-bottom: 60px;
+    }
+
+
+    .cycleContainerACT #cycletrails ul li mark{
+        font-style: normal;
+        background-color: transparent;
+        font-size: 26px;
+        display: block;
+        font-weight: 500;
+        padding-bottom: 20px;
+        color: #a787dc;
+    }
+
+
+    .cycleContainerACT #cycletrails div.westCoast{
+        background: url('../images/ACT_cycle_02.jpg') no-repeat;
+        width: 1150px; height: 432px;
+        margin-bottom: 55px;
+    }
+
+    .cycleContainerACT #cycletrails div.timber{
+        background: url('../images/ACT_cycle_03.jpg') no-repeat;
+        width: 1150px; height: 432px;
+    }
+
+    .cycleContainerACT #cycletrails div.HBtrails{
+        background: url('../images/ACT_cycle_04.jpg') no-repeat;
+        width: 1150px; height: 432px;
+    }
+
+    .cycleContainerACT #cycletrails div.westCoast h3,
+    .cycleContainerACT #cycletrails div.timber h3,
+    .cycleContainerACT #cycletrails div.HBtrails h3
+    {
+        color: white;
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        padding: 18% 0;
+    }
+
+    .cycleContainerACT #cycletrails div.timber ~ p,
+    .cycleContainerACT #cycletrails div.HBtrails ~ p
+    {
+        margin: 40px 0;
+    }
+
+
+    /* ACT_cycleFin */
+
+    /* ACTFin */
+
+
+    /* localIF_SI */
+
+
+    .localSIContainer .SIContainer h2
+    {
+        color: #28b09e;
+    }
+
+
+    .localSIContainer .SIContainer ol.category li:nth-child(1) a{
+        background-image: url('../images/localIF_category_dunedin_01.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(2) a{
+        background-image: url('../images/localIF_category_dunedin_02.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(3) a{
+        background-image: url('../images/localIF_category_dunedin_03.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(4) a{
+        background-image: url('../images/localIF_category_dunedin_04.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(5) a{
+        background-image: url('../images/localIF_category_dunedin_05.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(6) a{
+        background-image: url('../images/localIF_category_dunedin_06.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(7) a{
+        background-image: url('../images/localIF_category_dunedin_07.png');
+    }
+    .localSIContainer .SIContainer ol.category li:nth-child(8) a{
+        background-image: url('../images/localIF_category_dunedin_08.png');
+    }
+    .localSIContainer .SIContainer ol.category li:hover a,
+    .localSIContainer .SIContainer ol.category li.active a{
+        background-image: url('../images/localIF_category_dunedin_hover.png');
+    }
+
+
+
+
+    /* dunedin */
+    
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_dunedin_01.jpg');
+    }
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_dunedin_02.jpg');
+    }
+    .localSIContainer .SIContainer #dunedin ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_dunedin_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #dunedin article{
+        background-image: url('../images/localIF_dunedin.jpg');
+    }
+
+    /* dunedinFin */
+
+
+    /* fiordland */
+
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_fiordland_01.jpg');
+    }
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_fiordland_02.jpg');
+    }
+    .localSIContainer .SIContainer #fiordland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_fiordland_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #fiordland article{
+        background-image: url('../images/localIF_fiordland.jpg');
+    }
+
+    /* fiordlandFin */
+
+
+    /* marlborough */
+
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_marlborough_01.jpg');
+    }
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_marlborough_02.jpg');
+    }
+    .localSIContainer .SIContainer #marlborough ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_marlborough_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #marlborough article{
+        background-image: url('../images/localIF_marlborough.jpg');
+    }
+
+    /* marlboroughFin */
+
+
+    /* queenstown */
+
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_queenstown_01.jpg');
+    }
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_queenstown_02.jpg');
+    }
+    .localSIContainer .SIContainer #queenstown ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_queenstown_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #queenstown article{
+        background-image: url('../images/localIF_queenstown.jpg');
+    }
+    
+    /* queenstownFin */
+
+    /* wanaka */
+
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wanaka_01.jpg');
+    }
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wanaka_02.jpg');
+    }
+    .localSIContainer .SIContainer #wanaka ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wanaka_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #wanaka article{
+        background-image: url('../images/localIF_wanaka.jpg');
+    }
+    
+    /* wanakaFin */
+
+
+    /* westcoast */
+
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_westcoast_01.jpg');
+    }
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_westcoast_02.jpg');
+    }
+    .localSIContainer .SIContainer #westcoast ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_westcoast_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #westcoast article{
+        background-image: url('../images/localIF_westcoast.jpg');
+    }
+    
+    /* westcoastFin */
+
+
+    /* christchurch */
+
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_christchurch_01.jpg');
+    }
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_christchurch_02.jpg');
+    }
+    .localSIContainer .SIContainer #christchurch ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_christchurch_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #christchurch article{
+        background-image: url('../images/localIF_christchurch.jpg');
+    }
+    
+    /* christchurchFin */
+
+
+    /* clutha */
+
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_clutha_01.jpg');
+    }
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_clutha_02.jpg');
+    }
+    .localSIContainer .SIContainer #clutha ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_clutha_03.jpg');
+    }
+
+    .localSIContainer .SIContainer #clutha article{
+        background-image: url('../images/localIF_clutha.jpg');
+    }
+    
+    /* cluthaFin */
+
+    /* localIF_SIFin */
+
+
+    /* localIF_NI */
+
+    .localNIContainer .NIContainer h2
+    {
+        color: #e371a1;
+    }
+
+
+    .localNIContainer .NIContainer ol.category li:nth-child(1) a{
+        background-image: url('../images/localIF_category_rotorua.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(2) a{
+        background-image: url('../images/localIF_category_ruapehu.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(3) a{
+        background-image: url('../images/localIF_category_auckland.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(4) a{
+        background-image: url('../images/localIF_category_waikato.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(5) a{
+        background-image: url('../images/localIF_category_wairarapa.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(6) a{
+        background-image: url('../images/localIF_category_wellington.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(7) a{
+        background-image: url('../images/localIF_category_coromandel.png');
+    }
+    .localNIContainer .NIContainer ol.category li:nth-child(8) a{
+        background-image: url('../images/localIF_category_northland.png');
+    }
+    .localNIContainer .NIContainer ol.category li:hover a,
+    .localNIContainer .NIContainer ol.category li.active a{
+        background-image: url('../images/localIF_category_rotorua_hover.png');
+    }
+
+
+
+
+    /* rotorua */
+    
+    .localNIContainer .NIContainer #rotorua article{
+        background-image: url('../images/localIF_rotorua.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_rotorua_01.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_rotorua_02.jpg');
+    }
+    .localNIContainer .NIContainer #rotorua ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_rotorua_03.jpg');
+    }
+
+
+    /* rotoruaFin */
+
+
+    /* ruapehu */
+
+    .localNIContainer .NIContainer #ruapehu article{
+        background-image: url('../images/localIF_ruapehu.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_ruapehu_01.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_ruapehu_02.jpg');
+    }
+    .localNIContainer .NIContainer #ruapehu ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_ruapehu_03.jpg');
+    }
+
+    /* ruapehuFin */
+
+
+    /* auckland */
+
+    .localNIContainer .NIContainer #auckland article{
+        background-image: url('../images/localIF_auckland.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_auckland_01.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_auckland_02.jpg');
+    }
+    .localNIContainer .NIContainer #auckland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_auckland_03.jpg');
+    }
+
+    /* aucklandFin */
+
+
+    /* waikato */
+
+    .localNIContainer .NIContainer #waikato article{
+        background-image: url('../images/localIF_waikato.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_waikato_01.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_waikato_02.jpg');
+    }
+    .localNIContainer .NIContainer #waikato ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_waikato_03.jpg');
+    }
+    
+    /* waikatoFin */
+
+    /* wairarapa */
+
+    .localNIContainer .NIContainer #wairarapa article{
+        background-image: url('../images/localIF_wairarapa.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wairarapa_01.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wairarapa_02.jpg');
+    }
+    .localNIContainer .NIContainer #wairarapa ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wairarapa_03.jpg');
+    }
+    
+    /* wairarapaFin */
+
+
+    /* wellington */
+
+    .localNIContainer .NIContainer #wellington article{
+        background-image: url('../images/localIF_wellington.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_wellington_01.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_wellington_02.jpg');
+    }
+    .localNIContainer .NIContainer #wellington ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_wellington_03.jpg');
+    }
+    
+    /* wellingtonFin */
+
+
+    /* coromandel */
+
+    .localNIContainer .NIContainer #coromandel article{
+        background-image: url('../images/localIF_coromandel.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_coromandel_01.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_coromandel_02.jpg');
+    }
+    .localNIContainer .NIContainer #coromandel ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_coromandel_03.jpg');
+    }
+    
+    /* coromandelFin */
+
+
+    /* northland */
+
+    .localNIContainer .NIContainer #northland article{
+        background-image: url('../images/localIF_northland.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(1){
+        background-image: url('../images/localIF_northland_01.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(2){
+        background-image: url('../images/localIF_northland_02.jpg');
+    }
+    .localNIContainer .NIContainer #northland ul.LC_list li:nth-child(3){
+        background-image: url('../images/localIF_northland_03.jpg');
+    }
+
+    /* northlandFin */
+
+    /* localIF_NIFin */
+
+
+
+    /* attrView */
+
+    .attrViewContainer li{
+        transition: all 0.5s ease-out;
+    }
+
+    .attrViewContainer li.poorknights{
+        background-image: url('../images/attrView_back_color_01.jpg');
+    }
+    .attrViewContainer li.tongariro{
+        background-image: url('../images/attrView_back_color_02.jpg');
+    }
+    .attrViewContainer li.franzjosef{
+        background-image: url('../images/attrView_back_color_03.jpg');
+    }
+    .attrViewContainer li.pukaki{
+        background-image: url('../images/attrView_back_color_04.jpg');
+    }
+    .attrViewContainer li.bluepools{
+        background-image: url('../images/attrView_back_color_05.jpg');
+    }
+    .attrViewContainer li.waitomo{
+        background-image: url('../images/attrView_back_color_06.jpg');
+    }
+    .attrViewContainer li.tekapo{
+        background-image: url('../images/attrView_back_color_07.jpg');
+    }
+    .attrViewContainer li.nightsky{
+        background-image: url('../images/attrView_back_color_08.jpg');
+    }
+    .attrViewContainer li.bluespring{
+        background-image: url('../images/attrView_back_color_09.jpg');
+    }
+    .attrViewContainer li.tewaikoropupu{
+        background-image: url('../images/attrView_back_color_10.jpg');
+    }
+
+
+    .attrViewContainer li.poorknights:hover{
+        background-image: url('../images/attrView_back_black_01.jpg');
+        
+    }
+    .attrViewContainer li.tongariro:hover{
+        background-image: url('../images/attrView_back_black_02.jpg');
+        
+    }
+    .attrViewContainer li.franzjosef:hover{
+        background-image: url('../images/attrView_back_black_03.jpg');
+        
+    }
+    .attrViewContainer li.pukaki:hover{
+        background-image: url('../images/attrView_back_black_04.jpg');
+        
+    }
+    .attrViewContainer li.bluepools:hover{
+        background-image: url('../images/attrView_back_black_05.jpg');
+        
+    }
+    .attrViewContainer li.waitomo:hover{
+        background-image: url('../images/attrView_back_black_06.jpg');
+        
+    }
+    .attrViewContainer li.tekapo:hover{
+        background-image: url('../images/attrView_back_black_07.jpg');
+        
+    }
+    .attrViewContainer li.nightsky:hover{
+        background-image: url('../images/attrView_back_black_08.jpg');
+        
+    }
+    .attrViewContainer li.bluespring:hover{
+        background-image: url('../images/attrView_back_black_09.jpg');
+        
+    }
+    .attrViewContainer li.tewaikoropupu:hover{
+        background-image: url('../images/attrView_back_black_10.jpg');
+        
+    }
+
+
+
+    .attrViewContainer li img{
+        opacity: 0;
+        display: block;
+        margin: 0 auto;
+        padding: 10% 0;
+        transition: all 0.5s ease-out;
+    }
+    .attrViewContainer li:hover img{
+        opacity: 1;
+        display: block;
+        margin: 0 auto;
+        padding: 10% 0;
+    }
+
+
+    /* attrViewFin */
+
+
+    /* attrBL */
+
+    .attrBLContainer > .singleTitle{
+        background-image: url('../images/attrBL.jpg');
+    }
+
+    .attrBLContainer div h2{
+        color: #28b09e;
+    }
+
+
+
+
+    .attrBLContainer .BL_list_right,
+    .attrEPRContainer .EPR_list_right{
+        max-width: 1670px; margin-left: auto;
+        margin-bottom: 170px;
+    }
+
+    .attrBLContainer .BL_list_left,
+    .attrEPRContainer .EPR_list_left{
+        max-width: 1670px;
+    }
+
+    .attrBLContainer .BL_list_right:after,
+    .attrBLContainer .BL_list_left:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .attrBLContainer .BL_list_right li:not(:last-child),
+    .attrBLContainer .BL_list_left li:not(:nth-child(3)){
+        position: relative;
+        width: 50%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrBLContainer .BL_list_right li:last-child,
+    .attrBLContainer .BL_list_left li:nth-child(3){
+        position: relative;
+        width: 100%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrBLContainer .BL_list_right li figure,
+    .attrBLContainer .BL_list_left li figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .attrBLContainer .BL_list_right li figure::after,
+    .attrBLContainer .BL_list_left li figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(40, 176, 158, .9);
+        z-index: 1;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrBLContainer .BL_list_right li:hover figure::after,
+    .attrBLContainer .BL_list_left li:hover figure::after{
+        opacity: 1;
+        height: 100%;
+    }
+
+    .attrBLContainer .BL_list_right li figure figcaption,
+    .attrBLContainer .BL_list_left li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 380px 30px 0;
+        top: 0;
+        z-index: 2;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrBLContainer .BL_list_right li:hover figure figcaption,
+    .attrBLContainer .BL_list_left li:hover figure figcaption{
+        padding: 30px 30px;
+    }
+
+
+
+    .attrBLContainer .BL_list_right li figure figcaption h3,
+    .attrBLContainer .BL_list_left li figure figcaption h3{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .attrBLContainer .BL_list_right li figure figcaption p,
+    .attrBLContainer .BL_list_left li figure figcaption p{
+        font-size: 18px;
+        font-weight: 100;
+        color: white;
+        line-height: 30px;
+    }
+
+    /* attrBLFin */
+
+
+    /* attrEPR */
+
+    .attrEPRContainer > .singleTitle{
+        background-image: url('../images/attrEPR.jpg');
+    }
+
+    .attrEPRContainer div h2{
+        color: #6c93ce;
+    }
+
+
+
+
+    .attrEPRContainer .EPR_list_right:after,
+    .attrEPRContainer .EPR_list_left:after{
+        content: ''; display: block; visibility: hidden; clear: both;
+    }
+
+    .attrEPRContainer .EPR_list_right li:not(:last-child),
+    .attrEPRContainer .EPR_list_left li:not(:nth-child(3)){
+        position: relative;
+        width: 50%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrEPRContainer .EPR_list_right li:last-child,
+    .attrEPRContainer .EPR_list_left li:nth-child(3){
+        position: relative;
+        width: 100%; height: 432px;
+        float: left;
+        overflow-y: hidden;
+        box-sizing: border-box;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure,
+    .attrEPRContainer .EPR_list_left li figure{
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure::after,
+    .attrEPRContainer .EPR_list_left li figure::after{
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(108, 147, 206, .9);
+        z-index: 1;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrEPRContainer .EPR_list_right li:hover figure::after,
+    .attrEPRContainer .EPR_list_left li:hover figure::after{
+        opacity: 1;
+        height: 100%;
+    }
+
+    .attrEPRContainer .EPR_list_right li figure figcaption,
+    .attrEPRContainer .EPR_list_left li figure figcaption{
+        position: absolute;
+        color: white;
+        padding: 380px 30px 0;
+        top: 0;
+        z-index: 2;
+        transition: all 0.5s ease-out;
+    }
+
+    .attrEPRContainer .EPR_list_right li:hover figure figcaption,
+    .attrEPRContainer .EPR_list_left li:hover figure figcaption{
+        padding: 30px 30px;
+    }
+
+
+
+    .attrEPRContainer .EPR_list_right li figure figcaption h3,
+    .attrEPRContainer .EPR_list_left li figure figcaption h3{
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .attrEPRContainer .EPR_list_right li figure figcaption p,
+    .attrEPRContainer .EPR_list_left li figure figcaption p{
+        font-size: 18px;
+        font-weight: 100;
+        color: white;
+        line-height: 30px;
+    }
+
+
+    /* attrEPRFin */
+
+
+    /* cos7day */
+
+
+    .cosContainer .sevendayContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .sevendayContainer section.category ul li:hover,
+    .cosContainer .sevendayContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+    .cosContainer .sevendayContainer .cos{
+        display: none;
+    }
+    .cosContainer .sevendayContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .sevendayContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .sevendayContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cos7dayFin */
+
+
+    /* cos14day */
+
+
+    .cosContainer .eightdayContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .eightdayContainer section.category ul li:hover,
+    .cosContainer .eightdayContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .eightdayContainer .cos{
+        display: none;
+    }
+    .cosContainer .eightdayContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .eightdayContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .eightdayContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cos7dayFin */
+
+
+    /* costwoweek */
+
+
+    .cosContainer .twoweekContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .twoweekContainer section.category ul li:hover,
+    .cosContainer .twoweekContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .twoweekContainer .cos{
+        display: none;
+    }
+    .cosContainer .twoweekContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .twoweekContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .twoweekContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* costwoweekFin */
+
+
+    /* cosSI */
+
+
+    .cosContainer .SIContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .SIContainer section.category ul li:hover,
+    .cosContainer .SIContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .SIContainer .cos{
+        display: none;
+    }
+    .cosContainer .SIContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .SIContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .SIContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cosSIFin */
+
+
+    /* cosNI */
+
+
+    .cosContainer .NIContainer h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 500;
+        color: #28b09e;
+        margin-bottom: 120px;
+    }
+
+
+    .cosContainer .NIContainer section.category ul li:hover,
+    .cosContainer .NIContainer section.category ul li.active
+    {
+        background-color: #28b09e;
+    }
+
+    .cosContainer .NIContainer .cos{
+        display: none;
+    }
+    .cosContainer .NIContainer .cos.active{
+        display: block;
+    }
+
+    .cosContainer .NIContainer .cos hr{
+        border-color: #28b09e;
+    }
+
+    .cosContainer .NIContainer .cos article h3{
+        font-family: 'Nanum Pen Script', cursive;
+        color: #787878;
+        font-size: 40px;
+        font-weight: 300;
+        text-align: center;
+        margin: 100px 0;
+    }
+
+    /* cosNIFin */
+
+
+
+
+    #AreaDunedin > .singleTitle{
+        background-image: url('../images/localIF_dunedinArea.jpg');
+    }
+
+
+    #HLDunedin > .singleTitle{
+        background-image: url('../images/localIF_dunedinHL.jpg');
+    }
+
+
+    #AreaFiordland > .singleTitle{
+        background-image: url('../images/localIF_fiordlandArea.jpg');
+    }
+
+
+    #HLFiordland > .singleTitle{
+        background-image: url('../images/localIF_fiordlandHL.jpg');
+    }
+
+    #AreaMarlborough > .singleTitle{
+        background-image: url('../images/localIF_marlboroughArea.jpg');
+    }
+
+
+    #HLMarlborough > .singleTitle{
+        background-image: url('../images/localIF_marlboroughHL.jpg');
+    }
+
+
+    #AreaQueenstown > .singleTitle{
+        background-image: url('../images/localIF_queenstownArea.jpg');
+    }
+
+
+    #HLQueenstown > .singleTitle{
+        background-image: url('../images/localIF_queenstownHL.jpg');
+    }
+
+    #AreaWanaka > .singleTitle{
+        background-image: url('../images/localIF_wanakaArea.jpg');
+    }
+
+
+    #HLWanaka > .singleTitle{
+        background-image: url('../images/localIF_wanakaHL.jpg');
+    }
+
+
+    #AreaWestcoast > .singleTitle{
+        background-image: url('../images/localIF_westcoastArea.jpg');
+    }
+
+
+    #HLWestcoast > .singleTitle{
+        background-image: url('../images/localIF_westcoastHL.jpg');
+    }
+
+    #AreaChristchurch > .singleTitle{
+        background-image: url('../images/localIF_christchurchArea.jpg');
+    }
+
+
+    #HLChristchurch > .singleTitle{
+        background-image: url('../images/localIF_christchurchHL.jpg');
+    }
+
+
+    #AreaClutha > .singleTitle{
+        background-image: url('../images/localIF_cluthaArea.jpg');
+    }
+
+
+    #HLClutha > .singleTitle{
+        background-image: url('../images/localIF_cluthaFALL.jpg');
+    }
+
+    #AreaRotorua > .singleTitle{
+        background-image: url('../images/localIF_rotoruaArea.jpg');
+    }
+
+
+    #HLRotorua > .singleTitle{
+        background-image: url('../images/localIF_rotoruaHL.jpg');
+    }
+
+    #AreaRuapehu > .singleTitle{
+        background-image: url('../images/localIF_ruapehuArea.jpg');
+    }
+
+
+    #HLRuapehu > .singleTitle{
+        background-image: url('../images/localIF_ruapehuHL.jpg');
+    }
+
+    #AreaAuckland > .singleTitle{
+        background-image: url('../images/localIF_aucklandArea.jpg');
+    }
+
+
+    #HLAuckland > .singleTitle{
+        background-image: url('../images/localIF_aucklandHL.jpg');
+    }
+
+    #AreaWaikato > .singleTitle{
+        background-image: url('../images/localIF_waikatoArea.jpg');
+    }
+
+
+    #HLWaikato > .singleTitle{
+        background-image: url('../images/localIF_waikatoHL.jpg');
+    }
+
+    #AreaWairarapa > .singleTitle{
+        background-image: url('../images/localIF_wairarapaArea.jpg');
+    }
+
+
+    #HLWairarapa > .singleTitle{
+        background-image: url('../images/localIF_wairarapaHL.jpg');
+    }
+
+    #AreaWellington > .singleTitle{
+        background-image: url('../images/localIF_wellingtonArea.jpg');
+    }
+
+
+    #HLWellington > .singleTitle{
+        background-image: url('../images/localIF_wellingtonHL.jpg');
+    }
+
+    #AreaCoromandel > .singleTitle{
+        background-image: url('../images/localIF_coromandelArea.jpg');
+    }
+
+
+    #HLCoromandel > .singleTitle{
+        background-image: url('../images/localIF_coromandelHL.jpg');
+    }
+
+    #AreaNorthland > .singleTitle{
+        background-image: url('../images/localIF_northlandArea.jpg');
+    }
+
+
+    #HLNorthland > .singleTitle{
+        background-image: url('../images/localIF_northlandHL.jpg');
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+/* ? desktop */
+
+/* 
+최고의경관 관련
+
+1. img 는 4k > 2k > 없을 시 조합 해서 2k(2560px) 정도 이미지 생산.
+.attrViewContainer li.poorknights {
+    background-image: url(../images/attrView_back_color_01.jpg);
+}
+
+@media screen and (min-width: 1280px)
+.attrViewContainer li {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    //height: 1300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 410px 0;
+    transition: padding 0.5s ease-out 0s;
+}
+
+.attrViewContainer li article {
+   // position: absolute;
+    text-align: center;
+    // display: block;
+    // width: 100%;
+    text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 10px;
+    // padding: 20% 0px;
+}
+*/

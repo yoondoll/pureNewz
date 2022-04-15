@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localIF_SI</title>
+    <!-- site title -->
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/slider.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+    <!-- 
+        완료 및 수정시 반드시 validation
+        https://validator.w3.org/#validate_by_upload 
+    -->
+
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </h1>
+            <input type="button" value="FNB" class="btn_open">
+            <nav>
+                <!--  class="active" -->
+                <input type="button" value="close" class="btn_close">
+                <ul>
+                    <li><a href="basicIF.html">기본정보</a></li>
+
+                    <li>
+                        액티비티
+                        <ol>
+                            <li><a href="ACT_winter.html">겨울 액티비티</a></li>
+                            <li><a href="ACT_summer.html">수상 액티비티</a></li>
+                            <li><a href="ACT_adventure.html">어드벤처</a></li>
+                            <li><a href="ACT_cycle.html">자전거</a></li>
+                        </ol>
+                    </li>
+
+                    <li>지역정보
+                        <ol>
+                            <li><a href="localIF_SI.html">남섬</a></li>
+                            <li><a href="localIF_NI.html">북섬</a></li>
+                        </ol>
+                    </li>
+
+                    <li>추천명소
+                        <ol>
+                            <li><a href="attraction_View.html">최고의 경관</a></li>
+                            <li><a href="attraction_BL.html">뉴질랜드 버킷리스트</a></li>
+                            <li><a href="attraction_EPR.html">스릴체험</a></li>
+                        </ol>
+                    </li>
+
+                    <li>코스추천
+                        <ol>
+                            <li><a href="cos_7day.html">3~7일 일정</a></li>
+                            <li><a href="cos_14day.html">8~14일 일정</a></li>
+                            <li><a href="cos_15day.html">15일 일정</a></li>
+                            <li><a href="cos_SI.html">남섬 일정</a></li>
+                            <li><a href="cos_NI.html">북섬 일정</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="localNIContainer">
+
+        <h2>북섬</h2>
+
+        <ol class="pager">
+            <li>
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+            </li>
+        </ol>
+
+        <div class="slidebox">
+            <ul class="multiTitle">
+                <li>
+                    <img src="images/cathedral.jpg" alt="coromandel" title="코로만델_커시드럴코브">
+                </li>
+                <li>
+                    <img src="images/auckland.jpg" alt="auckland" title="오클랜드 야경">
+                </li>
+                <li>
+                    <img src="images/hobbiton.jpg" alt="hobbiton" title="와이카토_호비튼">
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="NIContainer">
+            <h2>북섬</h2>
+            <p>
+                생태보호구 섬들, 그리고 문화와 역사의 향기가 짙은 활기찬 도시들이 있는 뉴질랜드의 북섬이 여행객들에게 다채로운 휴가 경험을 선사한다.<br>
+                뉴질랜드 정치사의 출발점이 된 북단 파노스 지역에서 남쪽으로 내려가며 아름답기 그지없는 해안과 해변들, 끝없이 이어지는 농장 지대와 지열 지대가 펼쳐진다.<br>
+                또한, 북섬 곳곳에서 현존하는 마오리 문화를 풍부하게 경험할 수 있다.
+            </p>
+
+            <ol class="category">
+                <li data-page="rotorua" class="active">
+                    <a>01</a>
+                    <h3>로토루아
+                        <small>Rotorua</small>
+                    </h3>
+                </li>
+                <li data-page="ruapehu">
+                    <a>02</a>
+                    <h3>루아페후
+                        <small>Ruapehu</small>
+                    </h3>
+                </li>
+                <li data-page="auckland">
+                    <a>03</a>
+                    <h3>오클랜드
+                        <small>Auckland</small>
+                    </h3>
+                </li>
+                <li data-page="waikato">
+                    <a>04</a>
+                    <h3>와이카토
+                        <small>Waikato</small>
+                    </h3>
+                </li>
+                <li data-page="wairarapa">
+                    <a>05</a>
+                    <h3>와이라라파
+                        <small>Wairarapa</small>
+                    </h3>
+                </li>
+                <li data-page="wellington">
+                    <a>06</a>
+                    <h3>웰링턴
+                        <small>Wellington</small>
+                    </h3>
+                </li>
+                <li data-page="coromandel">
+                    <a>07</a>
+                    <h3>코로만델
+                        <small>Coromandel</small>
+                    </h3>
+                </li>
+                <li data-page="northland">
+                    <a>08</a>
+                    <h3>노스랜드
+                        <small>Northland</small>
+                    </h3>
+                </li>
+            </ol>
+
+            <div class="LC_introduce active" id="rotorua">
+                <article>
+                    <h3><small>Rotorua</small>로토루아</h3>
+                    <p>
+                        로토루아는 끓어오르는 머드풀과 분출하는 간헐천, 자연 온천, 그리고 흥미진진한 마오리 문화 체험지로 유명하다.
+                        수정처럼 맑은 개울물과 황홀한 숲에서부터 놀랄 만큼 멋진 자전거 트레일과 머드풀에 이르기까지
+                        로토루아에서는 이 모든 것들을 만날 수 있다. 이 도시에는 모험을 추구하는 사람에서부터 여유롭게
+                        즐기고자 하는 사람에 이르기까지 모두를 위한 다양한 명소와 체험거리들이 있다.<br>
+                        ‘불의 고리’라 불리는 환태평양 조산대에 위치한 로토루아는 지열의 도시이다. 끓어오르는 머드풀과
+                        증기 구름, 자연 온천은 목욕과 휴식을 취하기에 완벽하다. 지열 공원에서 독특한 지형과 화산 활동을 관찰한 후,
+                        자연 온천에 몸을 담그거나 고급 스파에서 다양한 서비스를 받아 보자.
+                    </p>
+                </article>
+                <ul class="LC_list">
+                    <li>
+                        <div>
+                            <h3>꼭 체험해야할 10가지</h3>
+                            <p>
+                                폭발적으로 솟아오르는 간헐천, 끓는 진흙, 아드레날린이 솟구치는 액티비티와
+                                마오리 문화까지 로토루아에 그 모든 것이 있다. 로토루아에서 이 10가지만은 꼭 해보자.
+                            </p>
+                            <a href="Rotorua_EPR.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>지역 소개</h3>
+                            <p>
+                                마오리 문화와 지열 활동으로 유명한 로토루아. 로토루아 타운에 머물며 이 지역을 두루 여행해보자.
+                            </p>
+                            <a href="Rotorua_Area.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>하이라이트</h3>
+                            <p>
+                                로토루아는 자연과 문화가 복합된 관광명소이다.<br>
+                                끓는 진흙과 마오리 전통문화, 그리고 아름다운 호수와 숲이 함께 어우러진 독특한 이 지역을 여행하자.
+                            </p>
+                            <a href="Rotorua_HL.html">more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="LC_introduce" id="ruapehu">
+                <article>
+                    <h3><small>Ruapehu</small>루아페후</h3>
+                    <p>
+                        루아페후는 북섬의 중앙에 위치하고 있으며, 두 개의 국립공원과 아름다운 주변 지역에서 다양한 야외 모험을 즐길 수 있다.
+                        통가리로 국립공원(Tongariro National Park)은 뉴질랜드에서 가장 오래된 국립공원이며, 문화적, 자연적 가치를 인정받아
+                        유네스코 세계유산목록에 등재됐다. 통가리로 국립공원은 증기가 솟는 분화구와 비현실적인 모습의 호수,
+                        그리고 괴이한 암석들이 있는 경이로운 화산지대로 고산 식물에 둘러싸여 있다. 이 국립공원의 중심은 루아페후산이다.<br>
+                        북섬의 최고봉으로 두 개의 낮은 봉우리인 나우루호에산 및 통가리로산과 나란히 서 있다.
+                        서쪽에는 자연과 인류의 풍부한 역사를 간직한 고요하고 외딴 대자연인 황가누이 국립공원(Whanganui National Park)이 있다.
+                        황가누이 강에서 카누나 제트보트를 타고 외롭게 서 있는 브리지 투 노웨어(Bridge to Nowhere)와 같이 신비와 경이를
+                        간직하고 있는 대자연의 깊은 곳으로 여행을 떠나 보자.
+                    </p>
+                </article>
+                <ul class="LC_list">
+                    <li>
+                        <div>
+                            <h3>꼭 체험해야할 10가지</h3>
+                            <p>
+                                세계적으로 유명한 트레일을 따라 하이킹을 하고, 역사의 발자취를 따라 자전거 여행을 하고,
+                                전설적인 강에서 카누를 타고, 액티비티와 모험이 기다리는 웅장한 자연을 만끽하자.
+                            </p>
+                            <a href="Ruapehu_EPR.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>지역 소개</h3>
+                            <p>
+                                루아페후에 펼쳐진 파노라마 풍경의 주인공은 하늘 높이 솟은 세 화산 봉우리들.<br>
+                                오하쿠네나 화카파파 빌리지에 머물며 겨울에는 스키를 타고 여름에는 하이킹을 하자.
+                            </p>
+                            <a href="Ruapehu_Area.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>하이라이트</h3>
+                            <p>
+                                용암류, 활발한 분화구, 분기공, 에메랄드빛 호수, 그리고 환상적인 전망이
+                                잊지 못할 도보 여행을 선사할 것이다.
+                            </p>
+                            <a href="Ruapehu_HL.html">more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="LC_introduce" id="auckland">
+                <article>
+                    <h3><small>Auckland</small>오클랜드</h3>
+                    <p>
+                        오클랜드는 뉴질랜드에서 가장 인구가 많은 도시이며, 음식, 음악, 예술, 문화가 어우러져 있는 다문화 중심지이다.
+                        항해의 도시로도 알려져 있는 오클랜드는 화산 언덕을 지나 두 개의 항만으로 뻗어 있으며, 자연의 경이와 도시의 모험을
+                        모두 즐길 수 있는 신나는 도시이다.<br>
+                        오클랜드는 아름다운 해변과 하이킹 트레일 그리고 휴가를 즐길 수 있는 많은 매력적인 섬들이 주거지에서 30분 이내
+                        거리에 있는 도시 환경을 갖추고 있다. 여기에 화창한 기후, 폴리네시아 문화 그리고 최고의 음식과 와인, 쇼핑에 대한 열정을
+                        더하면 뉴질랜드에서 가장 크고 가장 다양한 도시인 오클랜드를 상상할 수 있다.<br>
+                        오클랜드는 단순히 도시가 아니라 볼거리와 즐길 거리가 가득한 지역이다. 인근에 즐길 거리들이 아주 많기 때문에 다양한
+                        액티비티를 손쉽게 접할 수 있다.
+                    </p>
+                </article>
+                <ul class="LC_list">
+                    <li>
+                        <div>
+                            <h3>꼭 체험해야할 10가지</h3>
+                            <p>
+                                하우라키 만에 떠 있는 초록 섬들을 카약이나 배로 찾아가고 걸어서 탐사하자.
+                                거칠고 아름다움을 지닌 서해안의 검은 모래 해변을 따라 산책도 하고 세계 수준급
+                                포도원에서 맛있는 음식과 와인을 즐기자.
+                            </p>
+                            <a href="Auckland_EPR.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>지역 소개</h3>
+                            <p>
+                                오클랜드 지역은 뉴질랜드 최대의 도시가 위치하고 있을 뿐 아니라 다양하고
+                                흥미로운 명소로 가득하다. 특히 피하 해변과 와이헤케섬은 꼭 가봐야할 곳이다.
+                            </p>
+                            <a href="Auckland_Area.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>하이라이트</h3>
+                            <p>
+                                항만을 낀 도시 오클랜드를 자연 명소들이 둘러싸고 있다. 오클랜드 도심에서
+                                1시간 안쪽으로 찾아갈 만한 아름다운 장소들을 소개한다.
+                            </p>
+                            <a href="Auckland_HL.html">more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="LC_introduce" id="waikato">
+                <article>
+                    <h3><small>Waikato</small>와이카토</h3>
+                    <p>
+                        오클랜드에서 남쪽으로 한시간 반 정도 떨어진 해밀턴-와이카토 지역은 낙농업의 중심지로서 푸른 목초지와 비옥한 토양이 펼쳐져 있는 곳.<br>
+                        뉴질랜드에서 네 번째로 큰 도시인 해밀턴에는 멋진 공원과 정원, 조용한 강변이 있다. 와이카토 강은 뉴질랜드에서 가장 긴 강으로 도시 한가운데를 흘러간다.
+                        다양한 숙박시설, 유명한 밤 문화와 레스토랑이 있는 해밀턴은 다른 지역으로 여행하기 위한 거점으로도 편리하다.<br>
+                        영화 의 팬이라면, 마타마타에 있는 호비튼 무비 세트(호빗마을 촬영장)를 둘러볼 수도 있고, 서핑을 즐긴다면 세계적으로 유명한 레프트핸드 브레이크를 탈 수 있는 래글런을 추천한다.<br>
+                        땅속에서의 모험지인 와이토모 동굴 지대에서는 반딧불의 푸른빛에 비친 종유석과 석순의 자연적인 아름다움이 경이롭기만 하다.<br>
+                        또는 아드레날린이 솟는 신나는 액티비티로 블랙워터 래프팅이나 앱세일링도 할 수 있다.
+                    </p>
+                </article>
+                <ul class="LC_list">
+                    <li>
+                        <div>
+                            <h3>꼭 체험해야할 10가지</h3>
+                            <p>
+                                구릉진 녹지가 이어지는 호비튼부터 환상적인 석회암 동굴들과 검은 모래해변에
+                                이르기까지 해밀턴과 와이카토 지역에는 모두를 위한 즐길 거리가 아주 많다.
+                                해밀턴 최고의 액티비티에 대해 알아보자.
+                            </p>
+                            <a href="Waikato_EPR.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>지역 소개</h3>
+                            <p>
+                                드넓게 펼쳐진 농장지대 외에도 많은 볼거리가 있는 와이카토. 뉴질랜드의 네번째 도시
+                                해밀턴과 서핑 중심지 래글런, 와이토모 동굴지대를 여행해보자.
+                            </p>
+                            <a href="Waikato_Area.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>하이라이트</h3>
+                            <p>
+                                마법같은 동굴탐험과 수많은 액티비티를 즐길 수 있는 해밀턴-와이카토에서는
+                                익스트림 야외 어드벤처와 이색적인 체험을 맛볼 수 있다.
+                            </p>
+                            <a href="Waikato_HL.html">more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="LC_introduce" id="wairarapa">
+                <article>
+                    <h3><small>Wairarapa</small>와이라라파</h3>
+                    <p>
+                        웰링턴에서 1시간 거리인 와이라라파. 마틴버러의 포도원이나 북섬의 남단인 케이프 팰리서를 방문해보자.<br>
+                        웰링턴에서 구불구불한 리무타카 힐 로드를 따라 찾아가는 와이라라파. 길 위에서 오토바이를 자주 볼 수 있는데,
+                        오토바이여행을 하기에 특히 좋은 지역이기 때문인 건 굳이 설명할 필요가 없다.
+                        와이라라파에서는 와이오히네 고지(협곡)까지 걷는 산책로나 흔들다리 같은 볼거리도 있지만, 가장 유명한 건 와인이다.<br>
+                        이 지역에서 가장 대표적인 와인 지대인 마틴버러에서 와이너리 투어를 하고, 아담한 그레이타운에 잠깐 들러서
+                        맛있는 커피 한잔을 하는 것도 좋을 것이다.
+                    </p>
+                    </p>
+                </article>
+                <ul class="LC_list">
+                    <li>
+                        <div>
+                            <h3>꼭 체험해야할 10가지</h3>
+                            <p>
+                                뉴질랜드의 음식과 와인 그리고 맥주가 전 세계인을 매료시키는 데는 그럴만한 이유가 있다.
+                                여행 계획을 세우는데 도움이 될 음식과 음료 체험을 확인해보자.
+                            </p>
+                            <a href="Wairarapa_EPR.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>지역 소개</h3>
+                            <p>
+                                와이라라파는 와이너리와 골동품점, 미각을 자극하는 음식과 유서 깊은 역사가 어우러져 있는 곳.<br>
+                                마틴버러나 매스터턴, 카터턴을 방문하여 이 지역의 매력을 맛보자.
+                            </p>
+                            <a href="Wairarapa_Area.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>하이라이트</h3>
+                            <p>
+                                웰링턴의 동쪽 깊숙이 숲과 평원, 해안을 품은 와이라라파를 경험해보자.
+                            </p>
+                            <a href="Wairarapa_HL.html">more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="LC_introduce" id="wellington">
+                <article>
+                    <h3><small>Wellington</small>웰링턴</h3>
+                    <p>
+                        북섬의 남단, 햇빛에 반짝이는 항만과 푸른 구릉지대 사이에 아늑하게 안겨 있는 뉴질랜드의 수도 웰링턴.<br>
+                        링턴 시내에서 오리엔탈 베이의 금빛 모래 해변에서 휴식하고, 여러 박물관과 미술관, 연극 무대 등을 돌며
+                        이 도시에 고동치는 문화의 숨결을 느끼자.<br>
+                        야외 활동으로는 액션 스포츠로 산악자전거와 바다 카약이 있고, 항만과 주위 언덕으로 아름다운 산책로를 따라 걸을 수도 있다.
+                        멋진 전망을 볼 수 있는 마카라 피크(Makara Peak)트랙과 웰링턴 워터프런트의 아름다움을 느낄 수 있는 ‘도시에서 바다로(City to Sea)’ 트랙을 걷자.<br>
+                        케이블카를 타고 언덕 위, 켈번(Kelburn)에 올라 아이스크림을 먹으며 파노라마로 시내 전경도 감상하자.
+                    </p>
+                </article>
+                <ul class="LC_list">
+                    <li>
+                        <div>
+                            <h3>꼭 체험해야할 8가지</h3>
+                            <p>
+                                웰링턴에 대해 론리플래닛이 '세계에서 가장 멋진 작은 수도'그리고 보그가 '로커보어의 꿈'이라고
+                                소개한 데에는 그 이유가 있다.
+                            </p>
+                            <a href="Wellington_EPR.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>지역 소개</h3>
+                            <p>
+                                웰링턴 지역은 남섬의 관문이 되는 곳. 또한 예술과 문화, 재미로 가득한 이 나라의 수도이다.
+                            </p>
+                            <a href="Wellington_Area.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>하이라이트</h3>
+                            <p>
+                                남쪽으로는 항만, 북쪽으로는 산림으로 둘러싸인 웰링턴은 가볼 만한 곳이 많다.
+                            </p>
+                            <a href="Wellington_HL.html">more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="LC_introduce" id="coromandel">
+                <article>
+                    <h3><small>Coromandel</small>코로만델</h3>
+                    <p>
+                        뉴질랜드에서 가장 인기 있는 휴가 여행지로 꼽히는 코로만델은 청정 해변, 신비로운 숲, 여유롭고 느긋한 분위기로 유명하다.
+                        하이커의 낙원이라 불리는 이곳 코로만델 반도에서 깨끗한 숲속의 청량함을 만끽해보자.<br>
+                        금광 유산을 간직한 카랑가하케 협곡을 탐방하고, 코로만델 코스털 워크웨이를 걷고, 피너클스를 오르거나
+                        하우라키 레일 트레일 을 따라 자전거 여행을 할 수 있다.<br>
+                        핫워터비치에서는 간조 전후 2시간씩 직접 해변의 모래를 파서 따뜻한 천연 온천욕을 즐길 수도 있다.<br>
+                        또한 해양보호구의 보석 같은 곳, 아름다운 커시드럴코브에도 꼭 가보자.
+                    </p>
+                </article>
+                <ul class="LC_list">
+                    <li>
+                        <div>
+                            <h3>꼭 체험해야할 10가지</h3>
+                            <p>
+                                여유를 즐기는 주민, 금빛의 해안선, 그리고 내륙의 산악지대가 있는 코로만델 반도는 현지 키위에게
+                                휴양지로 오랫동안 인기를 누려왔다. 그 이유를 알아보자.
+                            </p>
+                            <a href="Coromandel_EPR.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>지역 소개</h3>
+                            <p>
+                                한때 금광 지역으로 유명했던 코로만델은 더 없이 아름다운 해변들이 이어진 여름 휴가의 메카이다.<br>
+                                가장 인기있는 휘티앙가와 황가마타 외에 다른 지역들도 소개한다.
+                            </p>
+                            <a href="Coromandel_Area.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>하이라이트</h3>
+                            <p>
+                                자연의 놀이터인 코로만델 반도 해안이 자연의 신비로움으로 가득하다. 숲을 이룬 내륙의 삼림지대
+                                곳곳에 누구나 즐길 수 있는 하이킹 트랙이 조성되어 있다.
+                            </p>
+                            <a href="Coromandel_HL.html">more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="LC_introduce" id="northland">
+                <article>
+                    <h3><small>Northland</small>노스랜드</h3>
+                    <p>
+                        노스랜드 지역은 북섬의 북단인 케이프 레잉가에서 시작하여 남쪽으로 300km 이상 뻗어 있다.<br>
+                        뉴질랜드 최북단인 노스랜드는 따뜻한 바다의 고장이자 마오리 문화가 강하게 배어있는 곳이다.
+                        노스랜드 동쪽의 베이 오브 아일랜드는 바다와 섬으로 가득한 뉴질랜드 대표적인 휴양지.<br>
+                        또한, 이곳에 자리한 와이탕이 트리티 그라운드에서 뉴질랜드의 역사를 배울 수 있다.<br>
+                        노스랜드 서쪽으로는 거대한 카우리 나무 타네마후타가 서 있고, 아름다운 백사장과
+                        거대한 사구가 있는 호키앙가 항만이 있다.<br>
+                        마오리 전설을 들으며 카우리 숲 속에서 신비스러운 타네마후타를 만나보자.
+                    </p>
+                </article>
+                <ul class="LC_list">
+                    <li>
+                        <div>
+                            <h3>꼭 체험해야할 9가지</h3>
+                            <p>
+                                노스랜드는 아열대 섬들, 해양동물, 카우리 숲, 마오리 신화와 전설을 품고 있는
+                                믿을 수 없는 여행지이다.
+                            </p>
+                            <a href="Northland_EPR.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>지역 소개</h3>
+                            <p>
+                                노스랜드는 역사, 문화유산, 아름다운 해안 풍경이 어우러진 곳. 파이히아 또는 케리케리에
+                                머물며 베이 오브 아일랜드를 탐험하고 스쿠버 다이빙과 낚시로 이름난 투투카카를 찾아가자.
+                            </p>
+                            <a href="Northland_Area.html">more</a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div>
+                            <h3>하이라이트</h3>
+                            <p>
+                                자연의 놀이터인 코로만델 반도 해안이 자연의 신비로움으로 가득하다. 숲을 이룬 내륙의 삼림지대
+                                곳곳에 누구나 즐길 수 있는 하이킹 트랙이 조성되어 있다.
+                            </p>
+                            <a href="Northland_HL.html">more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    <footer>
+        <div>
+            <div>
+                <h2>
+                    <img src="images/logo_white.png" alt="logo_white">
+                </h2>
+
+                <ul>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">twiter</a></li>
+                    <li><a href="#">instar</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <address>상호명 : 퓨어뉴질랜드 ㅣ 대표 : 정윤영 ㅣ 개인정보책임자 : 정윤영<br>
+                    사업자번호 : 123-45-67890 ㅣ 통신판매업신고번호 : 2021-성남-1234 ㅣ 사업자정보확인<br>
+                    주소 : 경기 시흥시 장현천로 123 ㅣ <a href="tel:+82311234567">TEL : 031-123-4567</a> ㅣ FAX : 031-123-5678
+                </address>
+
+                <p>카카오톡 : @퓨어뉴질랜드<br>
+                    <a href="mailto:info@purenewzealand.com">Email : info@purenewzealand.com</a> <br>
+                    운영시간 : 평일 10:00 ~ 18:00(한국시간 기준)
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a class="top" href="#">TOP</a>
+</body>
+
+</html>
