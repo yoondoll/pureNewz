@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cos_NI_WQ</title>
+    <!-- site title -->
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+
+<body>
+    <!-- 
+        완료 및 수정시 반드시 validation
+        https://validator.w3.org/#validate_by_upload 
+    -->
+
+    <header>
+        <div>
+            <h1>
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </h1>
+            <input type="button" value="FNB" class="btn_open">
+            <nav>
+                <!--  class="active" -->
+                <input type="button" value="close" class="btn_close">
+                <ul>
+                    <li><a href="basicIF.html">기본정보</a></li>
+
+                    <li>
+                        액티비티
+                        <ol>
+                            <li><a href="ACT_winter.html">겨울 액티비티</a></li>
+                            <li><a href="ACT_summer.html">수상 액티비티</a></li>
+                            <li><a href="ACT_adventure.html">어드벤처</a></li>
+                            <li><a href="ACT_cycle.html">자전거</a></li>
+                        </ol>
+                    </li>
+
+                    <li>지역정보
+                        <ol>
+                            <li><a href="localIF_SI.html">남섬</a></li>
+                            <li><a href="localIF_NI.html">북섬</a></li>
+                        </ol>
+                    </li>
+
+                    <li>추천명소
+                        <ol>
+                            <li><a href="attraction_View.html">최고의 경관</a></li>
+                            <li><a href="attraction_BL.html">뉴질랜드 버킷리스트</a></li>
+                            <li><a href="attraction_EPR.html">스릴체험</a></li>
+                        </ol>
+                    </li>
+
+                    <li>코스추천
+                        <ol>
+                            <li><a href="cos_7day.html">3~7일 일정</a></li>
+                            <li><a href="cos_14day.html">8~14일 일정</a></li>
+                            <li><a href="cos_15day.html">15일 일정</a></li>
+                            <li><a href="cos_SI.html">남섬 일정</a></li>
+                            <li><a href="cos_NI.html">북섬 일정</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="imgSwapTitle">
+        <a class="material-icons-outlined">arrow_back_ios</a>
+        <a class="material-icons-outlined">arrow_forward_ios</a>
+
+        <h2>코스 추천</h2>
+
+        <ol class="pager">
+            <li>
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+            </li>
+        </ol>
+
+        <ul class="sliderTitle">
+            <li>
+                <img src="images/clutha_03.jpg" alt="clutha" title="클루서_너겟 포인트 등대">
+            </li>
+            <li>
+                <img src="images/mountcook_03.jpg" alt="auckland" title="마운트쿡">
+            </li>
+            <li>
+                <img src="images/Wanaka.jpg" alt="Wanaka" title="와나카_와나카 호수">
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="SIContainer">
+        <section class="SI_category">
+            <h2>북섬 일정</h2>
+
+            <ul>
+                <li><a href="cos_NI.html">전국일주 여행</a></li>
+                <li><a href="cos_NI_NS.html">북섬의 북단-남섬의 북단까지의 여정</a></li>
+                <li><a href="cos_NI_elven.html">엘프의 마법같은 미들어스 2주 여정</a></li>
+                <li><a href="cos_NI_WQ.html">웰링턴-퀸스타운</a></li>
+            </ul>
+
+            <ol>
+                <!-- ol background: · /공백까지 -->
+                <li>
+                    <span class="material-icons">directions_boat</span>
+                    웰링턴-카이코우라
+                </li>
+                <li>
+                    <span class="material-icons">wine_bar</span>
+                    크라이스트처치
+                </li>
+                <li>
+                    <span class="material-icons">landscape</span>
+                    마운트쿡
+                </li>
+                <li>
+                    <span class="material-icons">kayaking</span>
+                    퀸스타운
+                </li>
+            </ol>
+
+            <hr>
+
+            <article>
+                <h3>웰링턴 - 퀸스타운</h3>
+                <ul>
+                    <!--
+                                        li(relative) : odd-> border-left, before: content: url(wale) / even -> border-right, after: content: url(wale).
+                                        odd:before absolute left center / even: after absolute right center;
+                                    -->
+                    <li>
+                        <!-- backgroundIMG -->
+                        <h4>1일 : 웰링턴-카이코우라</h4>
+                        <p>
+                            항만과 언덕에 둘러싸인 웰링턴 도심은 걸어서 여행하기에 편리하다. 시내 곳곳에 카페와 레스토랑,박물관, 미술관들이 있다.
+                            웰링턴에서 남섬 말버러로 가는 페리는 세계에서 가장 아름다운 페리 항로의 하나로 꼽히는 물길을 따라간다.
+                            말버러 지역은 와인과 아름다운 수로로 유명하다. 이곳의 중심지인 블레넘은 점심 식사하기 좋다. 블레넘에서
+                            해안을 따라 카이코우라로 간다. 온갖 종류의 야생동물을 관찰할 수 있는 이 해안 마을에서 돌고래, 범고래와
+                            함께 고래를 관찰하고, 반도를 따라 조성된 트랙을 걸으며 갯바위에서 쉬고 있는 물개 무리를 만날 수 있다.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>2일 : 카오코우라-크라이스트처치</h4>
+                        <p>
+                            핸머스프링스에서는 온천과 다양한 스파 세러피를 즐긴다. 야외 활동도 광범위하게 즐길 수 있다.
+                            이어서 크라이스트처치로 향하는 길에 와이파라, 앰벌리, 와이쿠쿠 마을을 지나간다. 이 지역에는 농장,
+                            포도밭, 올리브 농원들이 많다. 특히 와인으로 유명한 와이파라에서 점심 식사를 하자.
+                            크라이스트처치는 역사가 오랜 영국식 정원과 감각적인 바, 혁신적인 도시 예술이 대조를 이루고 있다.
+                            이곳에서 인기 있는 액티비티로 에이번강(Avon River) 펀트 배(Punting) 유람, 포트힐스(Port Hills) 자전거 타기,
+                            그리고 프랑스 식민지 마을 아카로아(Akaroa) 방문하기 등이 있다.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>3일 : 크라이스트처치-아오라키/마운트쿡</h4>
+                        <p>
+                            호수 남단에 레이크테카포(테카포 호수) 마을이 있다. 부유하는 미세한 암석 가루로 인해 호숫물이 불투명한
+                            녹청색을 띠고 있다. 이곳에서 낚시, 카약, 산악자전거, 승마 트레킹, 스키를 비롯해 다양한 활동을 즐길 수 있다.<br>
+                            마운트쿡으로 가는 길에 고산 터석 초원 지대를 지나고 아름다운 푸카키 호수를 끼고 달리게 된다.
+                            오스트랄라시아 지역 최고봉(마운트쿡 3,755m)이 있는 아오라키 마운트쿡 국립공원은 등반가와 하이커,
+                            그리고 관광객들에게 인기가 높다. 인기 있는 활동으로 헬리 스키, 헬리 하이킹, 관광 비행이 있다.
+                            이곳은 또한 아름다운 밤하늘로 유명하다.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>4일 : 마운트쿡 빌리지-퀸스타운</h4>
+                        <p>
+                            오늘은 오마라마(Omarama) 타운을 지나간다. 글라이더 조종사를 1만m 상공으로 올려주는 열상승기류,
+                            노스웨스트 아치(Northwest Arch)로 유명한 곳이다.
+                            이어서 던스턴 호수(Lake Dunstan)에서 피크닉하고, 크롬웰(Cromwell)의 복원된 마을로 들어간다.<br>
+                            옛 금광 작업장에 관심이 있다면 배넉번(Bannockburn)으로 가는 우회로를 택한다.
+                            퀸스타운은 흥미진진하고 세련되며 환상적인 절경을 간직한 고산 리조트 타운이다. 퀸스타운에서 번지 점프,
+                            제트보트, 승마 트레킹, 래프팅, 강 서핑 등 다양한 야외 활동을 즐기며 여행을 마무리한다.
+                            한편, 느긋하게 미식과 와인, 스파 트리트먼트, 여유로운 골프 등 럭셔리 경험을 하며 하루를 보낼 수도 있다.
+                        </p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </div>
+
+
+
+
+    <footer>
+        <div>
+            <div>
+                <h2>
+                    <img src="images/logo_white.png" alt="logo_white">
+                </h2>
+
+                <ul>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">twiter</a></li>
+                    <li><a href="#">instar</a></li>
+                    <li><a href="#">blog</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <address>상호명 : 퓨어뉴질랜드 ㅣ 대표 : 정윤영 ㅣ 개인정보책임자 : 정윤영<br>
+                    사업자번호 : 123-45-67890 ㅣ 통신판매업신고번호 : 2021-성남-1234 ㅣ 사업자정보확인<br>
+                    주소 : 경기 시흥시 장현천로 123 ㅣ <a href="tel:+82311234567">TEL : 031-123-4567</a> ㅣ FAX : 031-123-5678
+                </address>
+
+                <p>카카오톡 : @퓨어뉴질랜드<br>
+                    <a href="mailto:info@purenewzealand.com">Email : info@purenewzealand.com</a> <br>
+                    운영시간 : 평일 10:00 ~ 18:00(한국시간 기준)
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a class="top" href="#">TOP</a>
+</body>
+
+</html>
